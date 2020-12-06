@@ -1,21 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
 
-import AcmInfo from './components/AcmInfo/AcmInfo';
-import Contact from './components/Contact/Contact';
-import Footer from './components/Footer/Footer';
-import Navbar from './components/Navbar/Navbar';
-import News from './components/NewsFlash/News';
+import AcmInfo from './components/Dashboard/AcmInfo/AcmInfo';
+import Contact from './components/Dashboard/Contact/Contact';
+import Footer from './components/Dashboard/Footer/Footer';
+import Navbar from './components/Dashboard/Navbar/Navbar';
+import News from './components/Dashboard/NewsFlash/News';
+import TitleAnimation from './components/Dashboard/TitleAnimation/TitleAnimation';
+import FillerAnimation from './components/Dashboard/FillerAnimation/FillerAnimation';
 
 function App() {
   return (
-    <React.Fragment>
+    <div>
       <Navbar />
+      <TitleAnimation />
       <AcmInfo />
       <News />
+      <FillerAnimation />
       <Contact />
       <Footer />
-    </React.Fragment>
+    </div>
   );
 }
 
