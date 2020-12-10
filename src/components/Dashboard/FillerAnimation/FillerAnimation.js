@@ -3,7 +3,7 @@ import React from 'react'
 const FillerAnimation = () => {
     return (
         <div>
-            Filler Animation
+            FillerAnimation
         </div>
     )
 }

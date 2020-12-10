@@ -1,0 +1,23 @@
+.square {
+    height: 18px;
+    width: 18px;
+    background-color: #aa1111;
+    /* margin: 1px; */
+    opacity: 0;
+    display: block;
+    margin: auto;
+    z-index: 1;
+}
+
+.square-grid {
+    display: flex;
+}
+
+.acm-logo {
+    display: block;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+    margin-top: -13rem;
+    height: 35vh;
+}

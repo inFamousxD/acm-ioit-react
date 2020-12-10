@@ -1,24 +1,233 @@
 import React from 'react';
-import Anime from 'react-anime';
-
+import {anime} from 'react-anime';
+import './TitleAnimation.css'
+import acmLogo from '../../../assets/acm2.png'
 
 const TitleAnimation = () => {
+    // const animationRef = React.useRef(null);
+    React.useEffect(() => {
+        let anim1 = anime.timeline({
+            duration: 2500,
+            loop: true,
+            direction: 'alternate'
+        });
+        anim1.add({
+            targets: '.square',
+            translateX: anime.stagger(40, {grid: [32, 5], from: 'center', axis: 'x'}),
+            translateY: anime.stagger(40, {grid: [32, 5], from: 'center', axis: 'y'}),
+            rotateZ: anime.stagger([945, 945], {grid: [32, 5], from: 'center', axis: 'x'}),
+            easing: 'easeInOutCirc',
+            delay: anime.stagger(200, {grid: [32, 5], from: 'center'}),
+            backgroundColor: '#0069cc',
+            scale: [0.6, 2],
+            opacity: [0, 0.75]
+        }).add({ // shrink, change color
+            targets: '.square',
+            rotateZ: anime.stagger([45, 45], {grid: [32, 5], from: 'center', axis: 'x'}),
+            easing: 'easeInOutCirc',
+            delay: anime.stagger(50, {grid: [32, 5], from: 'center'}),
+            opacity: [0.75, 0.5],
+            backgroundColor: '#006900',
+            scale: [2, 0.8]
+        }).add({ // transform into circles
+            targets: '.square',
+            rotateZ: anime.stagger([315, 315], {grid: [32, 5], from: 'center', axis: 'x'}),
+            easing: 'easeInOutCirc',
+            delay: anime.stagger(30, {grid: [32, 5], from: 'center'}),
+            opacity: [0.5, 0.8],
+            backgroundColor: '#226922',
+            scale: [0.8, 1.2],
+            borderRadius: anime.stagger(['50%', '50%'], {grid: [32, 5], from: 'center'}),
+        }).add({
+            targets: '.square',
+            translateX: anime.stagger(50, {grid: [32, 5], from: 'center', axis: 'x'}),
+            translateY: anime.stagger(50, {grid: [32, 5], from: 'center', axis: 'y'}),
+            rotateZ: anime.stagger([45, 45], {grid: [32, 5], from: 'center', axis: 'x'}),
+            // rotateZ: 225,
+            easing: 'easeInOutCirc',
+            delay: anime.stagger(30, {grid: [32, 5], from: 'center'}),
+            opacity: [0.8, 0.6],
+            backgroundColor: '#bb2222',
+            scale: [1.2, 1.6],
+            borderRadius: anime.stagger(['0%', '0%'], {grid: [32, 5], from: 'center'}),
+        });
+    }, []);
     return (
-        <div>
-            Title Animation <br />
-            <Anime easing="easeOutElastic"
-                    duration={1000}
-                    direction="alternate"
-                    loop={true}
-                    delay={(el, index) => index * 240}
-                    translateX='13rem'
-                    scale={[.75, .9]}>
-                <div className="blue"/>
-                <div className="green"/>
-                <div className="red"/>
-            </Anime>
+      <div style={{margin: '10rem 0rem'}}>
+        {/* <div className="el" style={{backgroundColor: '#222'}}/> */}
+        <div className='square-grid'>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
         </div>
-    )
+        <div className='square-grid'>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+        </div>
+        <div className='square-grid'>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+        </div>
+        <div className='square-grid'>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+        </div>
+        <div className='square-grid'>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+        </div>
+        <img src={acmLogo} alt="" className='acm-logo'></img>
+      </div>
+    );
 }
 
 export default TitleAnimation

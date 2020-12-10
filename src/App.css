@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.box, .el {
+  height: 42px;
+  width: 42px;
+  border-radius: 15%;
+  opacity: 0.75;
+}

@@ -1,0 +1,935 @@
+{
+    "gstin": "27AAJPT0432A1Z3",
+    "fp": "092020",
+    "gt": 0.0,
+    "cur_gt": 0.0,
+    "version": "GST2.3.1",
+    "hash": "hash",
+    "b2b": [{
+        "ctin": "27AAACO9079L1ZS",
+        "inv": [{
+            "inum": "22",
+            "idt": "01-07-2020",
+            "val": 7838.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 6642.0,
+                    "camt": 597.78,
+                    "samt": 597.78,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "53",
+            "idt": "26-08-2020",
+            "val": 27031.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 22908.0,
+                    "camt": 2061.72,
+                    "samt": 2061.72,
+                    "csamt": 0.0
+                }
+            }]
+        }]
+    }, {
+        "ctin": "27AHUPD9026C1ZA",
+        "inv": [{
+            "inum": "23",
+            "idt": "05-07-2020",
+            "val": 3422.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 2900.0,
+                    "camt": 261.0,
+                    "samt": 261.0,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "32",
+            "idt": "21-07-2020",
+            "val": 944.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 800.0,
+                    "camt": 72.0,
+                    "samt": 72.0,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "35",
+            "idt": "25-07-2020",
+            "val": 590.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 500.0,
+                    "camt": 45.0,
+                    "samt": 45.0,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "38",
+            "idt": "01-08-2020",
+            "val": 295.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 250.0,
+                    "camt": 22.5,
+                    "samt": 22.5,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "44",
+            "idt": "12-08-2020",
+            "val": 590.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 500.0,
+                    "camt": 45.0,
+                    "samt": 45.0,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "49",
+            "idt": "23-08-2020",
+            "val": 177.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 150.0,
+                    "camt": 13.5,
+                    "samt": 13.5,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "55",
+            "idt": "31-08-2020",
+            "val": 295.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 250.0,
+                    "camt": 22.5,
+                    "samt": 22.5,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "57",
+            "idt": "04-09-2020",
+            "val": 177.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 150.0,
+                    "camt": 13.5,
+                    "samt": 13.5,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "63",
+            "idt": "12-09-2020",
+            "val": 590.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 500.0,
+                    "camt": 45.0,
+                    "samt": 45.0,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "72",
+            "idt": "23-09-2020",
+            "val": 177.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 150.0,
+                    "camt": 13.5,
+                    "samt": 13.5,
+                    "csamt": 0.0
+                }
+            }]
+        }]
+    }, {
+        "ctin": "27AAUPP2671E1ZB",
+        "inv": [{
+            "inum": "24",
+            "idt": "06-07-2020",
+            "val": 25547.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 21650.0,
+                    "camt": 1948.5,
+                    "samt": 1948.5,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "37",
+            "idt": "28-07-2020",
+            "val": 16331.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 13840.0,
+                    "camt": 1245.6,
+                    "samt": 1245.6,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "46",
+            "idt": "18-08-2020",
+            "val": 106908.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 90600.0,
+                    "camt": 8154.0,
+                    "samt": 8154.0,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "54",
+            "idt": "31-08-2020",
+            "val": 85786.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 72700.0,
+                    "camt": 6543.0,
+                    "samt": 6543.0,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "66",
+            "idt": "15-09-2020",
+            "val": 28969.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 24550.0,
+                    "camt": 2209.5,
+                    "samt": 2209.5,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "73",
+            "idt": "26-09-2020",
+            "val": 143370.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 121500.0,
+                    "camt": 10935.0,
+                    "samt": 10935.0,
+                    "csamt": 0.0
+                }
+            }]
+        }]
+    }, {
+        "ctin": "27ACOPV9706C1Z5",
+        "inv": [{
+            "inum": "25",
+            "idt": "08-07-2020",
+            "val": 1151.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 975.0,
+                    "camt": 87.75,
+                    "samt": 87.75,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "26",
+            "idt": "11-07-2020",
+            "val": 1770.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 1500.0,
+                    "camt": 135.0,
+                    "samt": 135.0,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "29",
+            "idt": "19-07-2020",
+            "val": 2567.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 2175.0,
+                    "camt": 195.75,
+                    "samt": 195.75,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "34",
+            "idt": "25-07-2020",
+            "val": 1328.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 1125.0,
+                    "camt": 101.25,
+                    "samt": 101.25,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "39",
+            "idt": "04-08-2020",
+            "val": 885.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 750.0,
+                    "camt": 67.5,
+                    "samt": 67.5,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "40",
+            "idt": "04-08-2020",
+            "val": 443.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 375.0,
+                    "camt": 33.75,
+                    "samt": 33.75,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "43",
+            "idt": "12-08-2020",
+            "val": 885.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 750.0,
+                    "camt": 67.5,
+                    "samt": 67.5,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "50",
+            "idt": "24-08-2020",
+            "val": 885.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 750.0,
+                    "camt": 67.5,
+                    "samt": 67.5,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "51",
+            "idt": "26-08-2020",
+            "val": 1328.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 1125.0,
+                    "camt": 101.25,
+                    "samt": 101.25,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "64",
+            "idt": "12-09-2020",
+            "val": 2213.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 1875.0,
+                    "camt": 168.75,
+                    "samt": 168.75,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "67",
+            "idt": "16-09-2020",
+            "val": 2655.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 2250.0,
+                    "camt": 202.5,
+                    "samt": 202.5,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "70",
+            "idt": "23-09-2020",
+            "val": 3098.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 2625.0,
+                    "camt": 236.25,
+                    "samt": 236.25,
+                    "csamt": 0.0
+                }
+            }]
+        }]
+    }, {
+        "ctin": "27AABCV2438F1ZG",
+        "inv": [{
+            "inum": "27",
+            "idt": "11-07-2020",
+            "val": 162796.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 137963.0,
+                    "camt": 12416.67,
+                    "samt": 12416.67,
+                    "csamt": 0.0
+                }
+            }]
+        }]
+    }, {
+        "ctin": "27ABPPK7356M1ZU",
+        "inv": [{
+            "inum": "28",
+            "idt": "15-07-2020",
+            "val": 96996.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 82200.0,
+                    "camt": 7398.0,
+                    "samt": 7398.0,
+                    "csamt": 0.0
+                }
+            }]
+        }]
+    }, {
+        "ctin": "27AAGFG3534R1ZW",
+        "inv": [{
+            "inum": "30",
+            "idt": "19-07-2020",
+            "val": 18461.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 15645.0,
+                    "camt": 1408.05,
+                    "samt": 1408.05,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "33",
+            "idt": "22-07-2020",
+            "val": 28125.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 23835.0,
+                    "camt": 2145.15,
+                    "samt": 2145.15,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "45",
+            "idt": "12-08-2020",
+            "val": 16727.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 14175.0,
+                    "camt": 1275.75,
+                    "samt": 1275.75,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "58",
+            "idt": "05-09-2020",
+            "val": 15488.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 13125.0,
+                    "camt": 1181.25,
+                    "samt": 1181.25,
+                    "csamt": 0.0
+                }
+            }]
+        }]
+    }, {
+        "ctin": "27AACCP3275B1ZO",
+        "inv": [{
+            "inum": "31",
+            "idt": "19-07-2020",
+            "val": 64056.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 54285.0,
+                    "camt": 4885.65,
+                    "samt": 4885.65,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "36",
+            "idt": "27-07-2020",
+            "val": 43146.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 36564.0,
+                    "camt": 3290.76,
+                    "samt": 3290.76,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "47",
+            "idt": "19-08-2020",
+            "val": 50752.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 43010.0,
+                    "camt": 3870.9,
+                    "samt": 3870.9,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "59",
+            "idt": "06-09-2020",
+            "val": 42964.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 36410.0,
+                    "camt": 3276.9,
+                    "samt": 3276.9,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "65",
+            "idt": "13-09-2020",
+            "val": 34527.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 29260.0,
+                    "camt": 2633.4,
+                    "samt": 2633.4,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "71",
+            "idt": "23-09-2020",
+            "val": 28556.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 24200.0,
+                    "camt": 2178.0,
+                    "samt": 2178.0,
+                    "csamt": 0.0
+                }
+            }]
+        }]
+    }, {
+        "ctin": "27AAMCS0632H1ZC",
+        "inv": [{
+            "inum": "41",
+            "idt": "08-08-2020",
+            "val": 141128.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 119600.0,
+                    "camt": 10764.0,
+                    "samt": 10764.0,
+                    "csamt": 0.0
+                }
+            }]
+        }]
+    }, {
+        "ctin": "27ATFPP0313FIZZ",
+        "inv": [{
+            "inum": "42",
+            "idt": "08-08-2020",
+            "val": 5900.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 5000.0,
+                    "camt": 450.0,
+                    "samt": 450.0,
+                    "csamt": 0.0
+                }
+            }]
+        }]
+    }, {
+        "ctin": "27AWVPG2949M1X0",
+        "inv": [{
+            "inum": "48",
+            "idt": "23-08-2020",
+            "val": 24426.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 20700.0,
+                    "camt": 1863.0,
+                    "samt": 1863.0,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "69",
+            "idt": "22-09-2020",
+            "val": 25700.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 21780.0,
+                    "camt": 1960.2,
+                    "samt": 1960.2,
+                    "csamt": 0.0
+                }
+            }]
+        }]
+    }, {
+        "ctin": "27AAGCP5315G1ZH",
+        "inv": [{
+            "inum": "52",
+            "idt": "26-08-2020",
+            "val": 100536.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 85200.0,
+                    "camt": 7668.0,
+                    "samt": 7668.0,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "60",
+            "idt": "08-09-2020",
+            "val": 12319.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 10440.0,
+                    "camt": 939.6,
+                    "samt": 939.6,
+                    "csamt": 0.0
+                }
+            }]
+        }]
+    }, {
+        "ctin": "27ACDPK9488M1ZR",
+        "inv": [{
+            "inum": "56",
+            "idt": "01-09-2020",
+            "val": 3493.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 2960.0,
+                    "camt": 266.4,
+                    "samt": 266.4,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "62",
+            "idt": "12-09-2020",
+            "val": 2832.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 2400.0,
+                    "camt": 216.0,
+                    "samt": 216.0,
+                    "csamt": 0.0
+                }
+            }]
+        }, {
+            "inum": "68",
+            "idt": "18-09-2020",
+            "val": 1770.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 1500.0,
+                    "camt": 135.0,
+                    "samt": 135.0,
+                    "csamt": 0.0
+                }
+            }]
+        }]
+    }, {
+        "ctin": "27AAXPC4234D1ZS",
+        "inv": [{
+            "inum": "61",
+            "idt": "09-09-2020",
+            "val": 8793.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [{
+                "num": 1,
+                "itm_det": {
+                    "rt": 18.0,
+                    "txval": 7452.0,
+                    "camt": 670.68,
+                    "samt": 670.68,
+                    "csamt": 0.0
+                }
+            }]
+        }]
+    }]
+}
