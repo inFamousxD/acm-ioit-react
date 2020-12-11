@@ -1,7 +1,7 @@
 import React from 'react';
 import {anime} from 'react-anime';
-import './TitleAnimation.css'
 import acmLogo from '../../../assets/acm2.png'
+import './TitleAnimation.css'
 
 const TitleAnimation = () => {
     // const animationRef = React.useRef(null);
@@ -9,7 +9,7 @@ const TitleAnimation = () => {
         let anim1 = anime.timeline({
             duration: 2500,
             loop: true,
-            direction: 'alternate'
+            direction: 'alternate',
         });
         anim1.add({
             targets: '.square',
