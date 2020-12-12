@@ -18,22 +18,22 @@ const Footer = () => {
             <ul className="sci">
               <li>
                 <a href="https://www.facebook.com/ioit.acm">
-                  <i class="fab fa-facebook-f"></i>
+                  <i className="fab fa-facebook-f"></i>
                 </a>
               </li>
               <li>
                 <a href="https://www.instagram.com/ioit.acm/">
-                  <i class="fab fa-instagram"></i>
+                  <i className="fab fa-instagram"></i>
                 </a>
               </li>
               <li>
                 <a href="https://twitter.com/IOIT_ACM">
-                  <i class="fab fa-twitter"></i>
+                  <i className="fab fa-twitter"></i>
                 </a>
               </li>
               <li>
                 <a href="https://www.linkedin.com/company/ioit-acm">
-                  <i class="fab fa-linkedin-in"></i>
+                  <i className="fab fa-linkedin-in"></i>
                 </a>
               </li>
             </ul>
@@ -71,16 +71,16 @@ const Footer = () => {
             <h2>Quick Links</h2>
             <ul>
               <li>
-                <a href="#">About</a>
+                <a href="localhost:3000">About</a>
               </li>
               <li>
-                <a href="#">Home</a>
+                <a href="localhost:3000">Home</a>
               </li>
               <li>
                 <a href="https://dl.acm.org/">ACM Digital Library</a>
               </li>
               <li>
-                <a href="#">Membership</a>
+                <a href="localhost:3000">Membership</a>
               </li>
             </ul>
           </div>
