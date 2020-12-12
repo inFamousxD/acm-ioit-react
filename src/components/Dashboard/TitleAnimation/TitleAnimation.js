@@ -51,7 +51,7 @@ const TitleAnimation = () => {
             borderRadius: anime.stagger(['50%', '50%'], {grid: [32, 5], from: 'center'}),
         }).add({ //transform to squares
             targets: '.square', 
-            translateX: anime.stagger(50, {grid: [32, 5], from: 'center', axis: 'y'}),
+            translateX: anime.stagger(50, {grid: [32, 5], from: 'center', axis: 'x'}),
             translateY: anime.stagger(50, {grid: [32, 5], from: 'center', axis: 'y'}),
             rotateZ: anime.stagger([45, 45], {grid: [32, 5], from: 'center', axis: 'x'}),
             // rotateZ: 225,
