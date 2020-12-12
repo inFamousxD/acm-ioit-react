@@ -1,12 +1,13 @@
 import React from "react";
 import './Footer.css';
+import { Container } from 'react-bootstrap';
 
 
 const Footer = () => {
   return (
     <div>
       <footer>
-        <div className="container">
+        <Container>
           <div className="sec about__sec">
             <h2>About ACM</h2>
             <p>
@@ -87,7 +88,7 @@ const Footer = () => {
 
           {/* <img src="http://localhost:3000/static/media/acm2.01084429.png" height="175px" width="175px"></img> */}
 
-        </div>
+        </Container>
       </footer>
     </div>
   );
