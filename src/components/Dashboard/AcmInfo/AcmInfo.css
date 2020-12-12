@@ -1,0 +1,34 @@
+
+h1{
+    padding-top:20px;
+    background-color:  #0069cc;
+    color: yellow;
+    text-decoration: underline;
+    font-family: "Raleway";
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    
+}
+h1:hover{
+    background-color: darkblue;
+}
+
+
+
+.contain{
+    background-color:  #0069cc;
+    color: yellow;
+    font-family: "Raleway";
+    text-align: center;
+    padding-bottom: 20px;
+    padding-right: 300px;
+    padding-left: 300px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.contain:hover{
+    background-color: darkblue;
+}
