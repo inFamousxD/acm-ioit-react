@@ -7,7 +7,7 @@ body, html {
 .square {
     height: 2vh;
     width: 2vh;
-    background-color: #aa1111;
+    background-color: #5E00C8;
     /* margin: 1px; */
     opacity: 0;
     display: block;
