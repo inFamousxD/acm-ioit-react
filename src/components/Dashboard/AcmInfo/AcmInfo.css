@@ -1,34 +1,16 @@
-
-h1{
+.acminfo-heading {
     padding-top:20px;
-    background-color:  #0069cc;
-    color: yellow;
-    text-decoration: underline;
-    font-family: "Raleway";
+    color: #0069cc;
     text-align: center;
     margin-left: 5px;
     margin-right: 5px;
-
-    
-}
-h1:hover{
-    background-color: darkblue;
 }
 
-
-
-.contain{
-    background-color:  #0069cc;
-    color: yellow;
-    font-family: "Raleway";
+.content {
+    color: #111;
     text-align: center;
     padding-bottom: 20px;
-    padding-right: 300px;
-    padding-left: 300px;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-.contain:hover{
-    background-color: darkblue;
+    padding: 0px 200px;
+    margin: 0px 5px;
+    font-size: 20px;
 }
