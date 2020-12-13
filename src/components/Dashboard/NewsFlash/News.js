@@ -1,23 +1,25 @@
 import React from 'react';
-import { Container, Card, Row, Col} from 'react-bootstrap';
+import { Container, Row, Col,Image } from 'react-bootstrap';
 import './News.css';
 
 const News = () => {
     return (
-       <Container>
+        <Container className="container p-3 my-3 border" fluid>
            <Row>
-               <Col lg={6}>
-               <Card classname ="md-3" >
-               <Card.Img variant="top" src="https://source.unsplash.com/user/erondu/600x400"/>
-                    <div className = "card-body">
-                        <Card.Title>News</Card.Title>
-                        <Card.Text>
-                         <p> News Description</p>
-                        </Card.Text>
-                        <Card.Link href="#">Read More</Card.Link>
-                    </div>
-                </Card>
-                </Col>
+           <Col sm={7}>
+           <Image src="https://source.unsplash.com/user/erondu/600x400" rectangle></Image>
+                    
+           </Col>
+               <Col sm={5} className="News">
+                   <body>
+                   <h2 className='News-heading' > Headline</h2>
+                   <p className='News-info'>
+                   ACM strengthens the profession's collective voice through strong leadership, promotion of the highest standards, and recognition of technical excellence. ACM supports the professional growth of its members by providing opportunities for life‐long learning, career development, and professional networking
+                   </p>
+                   <a className="Link" href="https://www.acm.org/" target="_blank">Read More</a>
+                   </body>
+                   
+               </Col>
            </Row>
        </Container>
     )

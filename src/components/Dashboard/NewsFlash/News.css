@@ -1,14 +1,11 @@
-.card-body {
-    padding: 15px;
-    background-color:#fff;
-    color: #0069cc;
-    font-family: 'Raleway';
-    width:100%;
-  }
-  .card-title{
-      text-transform: uppercase;
-  }
-  .card-link{
-    color: #0069cc; 
-    text-align: end; 
+.News{
+  font-family: 'Raleway';
+}
+.News-heading{
+  color: #0069cc;
+}
+.Link{
+  bottom: 20px;
+  color: #0069cc;
+  cursor: pointer; 
 }
