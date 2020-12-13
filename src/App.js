@@ -6,7 +6,7 @@ import Footer from './components/Dashboard/Footer/Footer';
 import Navbar from './components/Dashboard/Navbar/Navbar';
 import News from './components/Dashboard/NewsFlash/News';
 import TitleAnimation from './components/Dashboard/TitleAnimation/TitleAnimation';
-import FillerAnimation from './components/Dashboard/FillerAnimation/FillerAnimation';
+// import FillerAnimation from './components/Dashboard/FillerAnimation/FillerAnimation';
 // import Test from './components/Dashboard/Test/Test';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -18,7 +18,7 @@ function App() {
       <TitleAnimation />
       <AcmInfo />
       <News />
-      <FillerAnimation />
+      {/* <FillerAnimation /> */}
       <Contact />
       <Footer />
     </div>

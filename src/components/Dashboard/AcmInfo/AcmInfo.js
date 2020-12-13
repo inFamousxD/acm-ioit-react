@@ -4,10 +4,9 @@ import './AcmInfo.css';
 const AcmInfo = () => {
     return (      
         <div className='content' id = 'text'>
-           <h1 className='acminfo-heading'> AISSMS IOIT ACM STUDENT CHAPTER</h1>
+           <h1 className='acminfo-heading'> What is ACM? </h1>
             <p>
-                ACM strengthens the profession's collective voice through strong leadership, promotion of the highest standards, and recognition of technical excellence.
-                ACM supports the professional growth of its members by providing opportunities for life‐long learning, career development, and professional networking  
+                ACM, the world's largest educational and scientific computing society, delivers resources that advance computing as a science and a profession. ACM provides the computing field's premier Digital Library and serves its members and the computing profession with leading-edge publications, conferences, and career resources.
             </p>
             <p>  
                 ACM IOIT Student Chapter was founded on 2019, with a vision to carry forward ACM’s international intentions on a grass root level at AISSMS’ Institute of Information Technology. 
