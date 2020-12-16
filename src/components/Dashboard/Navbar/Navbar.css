@@ -1,0 +1,153 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.nav {
+    padding: 2.8rem 0;
+    background-color: #383778;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+
+    display: flex;
+    justify-content: space-between;
+  /* background-color: #111 */
+
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+.hamburger {
+    display: none;
+}
+
+.nav_center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    position: fixed;
+    left: 60px;
+    width: 75px;
+    object-fit: contain;
+}
+
+
+.nav_list {
+    display: flex;
+    align-items: center;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 60%;
+}
+
+.nav_item:not(:last-child) {
+    margin-right: .5rem;
+}
+
+.nav_link {
+    font-size: 1.2rem;
+    color: #fff;
+    padding: 1rem;
+    border-radius: .5rem;
+    transition: all 300ms ease-in-out;
+}
+
+/* .color {
+    background-color: #0069cc;
+} */
+
+.nav_link:hover {
+    background-color: #fff;
+}
+
+.nav_black
+{
+    background-color: #111;
+}
+
+a 
+{
+    text-decoration: none;
+}
+
+ul,li 
+{
+    list-style: none;
+}
+  
+
+  
+    .container {
+    max-width: 114rem;
+    /* margin: 0 auto; */
+    margin: 0 68%;
+    }
+  
+  @media only screen and (max-width: 1200px) {
+    .container {
+      padding: 0 3rem;
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+    .hamburger {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 2.5rem;
+        cursor: pointer;
+        padding-left: 420px;
+    }
+
+    .logo {
+        position: fixed;
+        left: 60px;
+        width: 75px;
+        object-fit: contain;
+    }
+
+    .nav_list {
+        position: fixed;
+        top: 12%;
+        left: -100%;
+        flex-direction: column;
+        align-items: center;
+        background-color: #242424;
+        width: 100%;
+        height: 100%;
+        padding: 1.6rem 0;
+        transition: all 300ms ease-in-out;
+    }
+
+    .nav_list.active {
+        left: 0%;
+    }
+
+    .nav_item:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .nav_item {
+        margin: 2rem 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav_link {
+        font-size: 1.8rem;
+        width: 100%;
+    }
+}

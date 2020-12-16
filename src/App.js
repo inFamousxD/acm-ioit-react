@@ -1,4 +1,6 @@
 import './App.css';
+import { BrowserRouter as Router } from "react-router-dom";
+
 
 import AcmInfo from './components/Dashboard/AcmInfo/AcmInfo';
 import Contact from './components/Dashboard/Contact/Contact';
@@ -14,7 +16,9 @@ function App() {
   return (
     <div>
       {/* <Test /> */}
+      <Router>
       <Navbar />
+      </Router>
       <TitleAnimation />
       <AcmInfo />
       <News />
