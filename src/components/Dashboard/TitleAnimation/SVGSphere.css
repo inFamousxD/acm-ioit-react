@@ -1,0 +1,24 @@
+.animation-wrapper {
+    width: 50%;
+    padding-bottom: 50%;
+}
+
+.sphere-animation {
+    width: 50vh;
+    height: 50vh;
+    margin-left: 27%;
+    margin-top: 5%;
+}
+
+.sphere path {
+    fill: url(#sphereGradient);
+    stroke-width: 1px;
+    stroke: rgba(53, 53, 53, 0.35);
+    backface-visibility: hidden;
+}
+
+@media (min-width: 500px) {
+    .sphere path {
+        stroke-width: 0.9px;
+    }
+}
