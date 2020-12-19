@@ -9,23 +9,22 @@ const SVGSphere = () => {
             function resize() {
               if (timeout) clearTimeout(timeout);
               anime.set(el, {scale: 1});
-              var pad = padding || 0;
-              var parentEl = el.parentNode;
-              var elOffsetWidth = el.offsetWidth - pad;
-              var parentOffsetWidth = parentEl.offsetWidth;
-              var ratio = parentOffsetWidth / elOffsetWidth;
+              // var pad = padding || 0;
+              // var parentEl = el.parentNode;
+              // var elOffsetWidth = el.offsetWidth - pad;
+              // var parentOffsetWidth = parentEl.offsetWidth;
+              // var ratio = parentOffsetWidth / elOffsetWidth;
             //   timeout = setTimeout(anime.set(el, {scale: ratio}), 10);
             }
             resize();
             window.addEventListener('resize', resize);
           }
           
-          var sphereAnimation = (function() {
+          (function() {
           
             var sphereEl = document.querySelector('.sphere-animation');
             var spherePathEls = sphereEl.querySelectorAll('.sphere path');
             var pathLength = spherePathEls.length;
-            var hasStarted = false;
             var aimations = [];
           
             fitElementToParent(sphereEl);
