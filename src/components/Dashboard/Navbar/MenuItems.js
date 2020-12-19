@@ -1,4 +1,4 @@
-export default [
+const arr = [
     {
       id: 1,
       title: "Home",
@@ -11,7 +11,7 @@ export default [
     },
     {
       id: 3,
-      title: "Event",
+      title: "Events",
       cName: "nav_link",
     },
     {
@@ -26,3 +26,4 @@ export default [
     },
   ];
   
+  export default arr;
