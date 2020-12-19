@@ -4,7 +4,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import MenuItems from "./MenuItems";
 import "./Navbar.css";
 // import acmLogo from '../../../assets/acm.png'
-
+import {anime} from 'react-anime';
 
 const Navbar = (props) => {
 
@@ -16,6 +16,28 @@ const Navbar = (props) => {
         setClick(!click);
     };
     useEffect(() => {
+        let logoTextAnimation = anime.timeline({
+            loop: true,
+            autoplay: true,
+            direction: 'alternate',
+            duration: 5000
+        });
+        logoTextAnimation.add({
+            targets: '.logo-text',
+            color: '#FF6C00',
+            easing: 'easeInOutCirc',
+            delay: anime.stagger(300)
+        }).add({
+            targets: '.logo-text',
+            color: '#09FF00',
+            easing: 'easeInOutCirc',
+            delay: anime.stagger(300)
+        }).add({
+            targets: '.logo-text',
+            color: '#7100FF',
+            easing: 'easeInOutCirc',
+            delay: anime.stagger(300)
+        });
         window.addEventListener("scroll", () => {
             if (window.scrollY > 100) {
                 handleShow(true);
@@ -23,9 +45,6 @@ const Navbar = (props) => {
                 handleShow(false);
             }
         });
-        return () => {
-            // window.removeEventListener("scroll");
-        };
     }, []);
     return (
         <nav className={`nav ${show && "nav_black"}`}>

@@ -14,7 +14,7 @@ const SVGSphere = () => {
               // var elOffsetWidth = el.offsetWidth - pad;
               // var parentOffsetWidth = parentEl.offsetWidth;
               // var ratio = parentOffsetWidth / elOffsetWidth;
-            //   timeout = setTimeout(anime.set(el, {scale: ratio}), 10);
+              // timeout = setTimeout(anime.set(el, {scale: ratio}), 10);
             }
             resize();
             window.addEventListener('resize', resize);
