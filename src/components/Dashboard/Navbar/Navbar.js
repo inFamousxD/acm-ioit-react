@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import MenuItems from "./MenuItems";
 import "./Navbar.css";
-import acmLogo from '../../../assets/acm.png'
+// import acmLogo from '../../../assets/acm.png'
 
 
 const Navbar = (props) => {
@@ -24,31 +24,34 @@ const Navbar = (props) => {
             }
         });
         return () => {
-            window.removeEventListener("scroll");
+            // window.removeEventListener("scroll");
         };
     }, []);
     return (
         <nav className={`nav ${show && "nav_black"}`}>
-      <div className="nav_center container">
-        <img
-        className="logo"
-        src={acmLogo}
-        alt="ACM Logo"
-      />
+        <div className="nav_center container">
+            {/* <img
+                className="logo"
+                src={acmLogo}
+                alt="ACM Logo"
+            /> */}
+            <div className='logo-text'>
+                ACM IOIT
+            </div>
 
-        <ul className={click ? "nav_list active" : "nav_list"}>
-          {MenuItems.map(({ id, title, cName }) => (
-            <li key={id} className="nav_item">
-              <Link className={cName}>{title}</Link>
-            </li>
-          ))}
-        </ul>
+            <ul className={click ? "nav_list active" : "nav_list"}>
+            {MenuItems.map(({ id, title, cName }) => (
+                <li key={id} className="nav_item">
+                <Link className={cName}>{title}</Link>
+                </li>
+            ))}
+            </ul>
 
-        <div className="hamburger" onClick={clickHandler}>
-          {click ? <FaTimes /> : <FaBars />}
+            <div className="hamburger" onClick={clickHandler}>
+            {click ? <FaTimes /> : <FaBars />}
+            </div>
         </div>
-      </div>
-    </nav>
+        </nav>
     )
 }
 
