@@ -6,7 +6,7 @@ import AcmInfo from './components/Dashboard/AcmInfo/AcmInfo';
 import Contact from './components/Dashboard/Contact/Contact';
 import Footer from './components/Dashboard/Footer/Footer';
 import Navbar from './components/Dashboard/Navbar/Navbar';
-import News from './components/Dashboard/NewsFlash/News';
+// import News from './components/Dashboard/NewsFlash/News';
 import TitleAnimation from './components/Dashboard/TitleAnimation/TitleAnimation';
 import FillerAnimation from './components/Dashboard/FillerAnimation/FillerAnimation';
 // import Test from './components/Dashboard/Test/Test';
@@ -21,7 +21,7 @@ function App() {
       </Router>
       <TitleAnimation />
       <AcmInfo />
-      <News />
+      {/* <News /> */}
       <FillerAnimation />
       <Contact />
       <Footer />
