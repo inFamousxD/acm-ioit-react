@@ -60,7 +60,7 @@ const SVGSphere = () => {
               strokeDashoffset: {
                 value: [anime.setDashoffset, 0],
                 duration: 3900,
-                easing: 'easeInOutCirc',
+                easing: 'easeInQuad',
                 delay: anime.stagger(190, {direction: 'reverse'})
               },
               duration: 2000,

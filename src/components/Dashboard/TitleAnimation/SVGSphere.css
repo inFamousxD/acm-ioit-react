@@ -19,6 +19,6 @@
 
 @media (min-width: 500px) {
     .sphere path {
-        stroke-width: 0.9px;
+        stroke-width: 2px;
     }
 }

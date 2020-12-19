@@ -16,44 +16,39 @@ const TitleAnimation = () => {
             targets: '.unleashed',
             color: '#FF6C00',
             easing: 'easeInOutCirc',
-            delay: anime.stagger(300)
         }).add({
             targets: '.unleashed',
             color: '#09FF00',
             easing: 'easeInOutCirc',
-            delay: anime.stagger(300)
         }).add({
             targets: '.unleashed',
-            color: '#7100FF',
+            color: '#FF00FF',
             easing: 'easeInOutCirc',
-            delay: anime.stagger(300)
         });
-
-        /*let squareAnimation = anime.timeline({
-            loop: true,
-            autoplay: true,
-            duration: 5000
-        });
-        squareAnimation.add({
-            targets: '.title-animation-square',
-            easing: 'easeInOutCirc',
-            delay: anime.stagger(300),
-            rotateZ: 360
-        })*/
     }, [])
     return (
         <Row style={{paddingTop: '5rem'}} className='title-animation base'>
             <Col>
                 <div className='title-animation-title'>
-                    AISSMS IOIT ACM Student Chapter <br /> <div className='unleashed'>#UNLEASHED</div>
+                    AISSMS IOIT ACM Student Chapter <br /><div className='unleashed'>#UNLEASHED</div>
+                    <div className='unleashed' style={{ fontSize: '2.5vh' }}>• institute • of • information • technology •</div>
                 </div>
                 <SVGSphere />
             </Col>
             <Col>
-                <div className='title-animation-side'>
-                    
+                <div className='title-animation-side' style={{ marginTop: '20vh', fontSize: '3.5vh' }}>
+                    Association for Computing Machinery <br />
+                    Advancing Computing as a Science {'&'} Profession   
                 </div>
-                {/* <div className='title-animation-square'></div> */}
+                <div className='title-animation-side' style={{
+                    fontSize: '2.5vh',
+                    color: '#fff',
+                    marginTop: '4vh',
+                    marginRight: '2vh',
+                    opacity: '0.9'
+                }}>
+                    ACM brings together computing educators, researchers, and professionals to inspire dialogue, share resources, and address the field's challenges. As the world’s largest computing society, ACM strengthens the profession's collective voice through strong leadership, promotion of the highest standards, and recognition of technical excellence. ACM supports the professional growth of its members by providing opportunities for life‐long learning, career development, and professional networking.
+                </div>
             </Col>
         </Row>
     )

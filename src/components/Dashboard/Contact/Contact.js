@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Row, Col } from 'react-bootstrap';
+import './Contact.css';
 
 const Contact = () => {
   const [data, setData] = useState({
@@ -33,7 +34,7 @@ const formSubmit = (e) => {
 // I've also rearranged the code. Use perfect tabs, make it look pretty in general - it is easier to read and modify.
 
 return (      
-<div className = 'container-fluid contact_div p-3 mb-5 bg-white rounded p-3'>
+<div className = 'container-fluid contact_div p-3 rounded p-3 contact-div'>
   <Row>
     <Col sm={12} lg={4} md={4} xl={4}>
       {/* Map will go here */}

@@ -24,6 +24,11 @@ const arr = [
       title: "Team",
       cName: "nav_link",
     },
+    {
+      id: 6,
+      title: "Contact",
+      cName: "nav_link",
+    }
   ];
   
   export default arr;

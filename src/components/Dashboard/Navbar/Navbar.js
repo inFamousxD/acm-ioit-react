@@ -26,17 +26,14 @@ const Navbar = (props) => {
             targets: '.logo-text',
             color: '#FF6C00',
             easing: 'easeInOutCirc',
-            delay: anime.stagger(300)
         }).add({
             targets: '.logo-text',
             color: '#09FF00',
             easing: 'easeInOutCirc',
-            delay: anime.stagger(300)
         }).add({
             targets: '.logo-text',
-            color: '#7100FF',
+            color: '#FF00FF',
             easing: 'easeInOutCirc',
-            delay: anime.stagger(300)
         });
         window.addEventListener("scroll", () => {
             if (window.scrollY > 100) {
