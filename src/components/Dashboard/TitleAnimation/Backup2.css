@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body, html {
+    font-family: 'Raleway';
+}
+
+.square {
+    height: 2vh;
+    width: 2vh;
+    background-color: #5E00C8;
+    /* margin: 1px; */
+    opacity: 0;
+    display: block;
+    margin: auto;
+    z-index: 1;
+}
+
+.square-grid {
+    display: flex;
+}
+
+.acm-logo {
+    display: block;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+    margin-top: -13rem;
+    height: 35vh;
+}
+
+.square .mid {
+    opacity: 0;
+}

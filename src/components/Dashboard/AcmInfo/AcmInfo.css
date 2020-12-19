@@ -2,15 +2,12 @@
     padding-top:20px;
     color: #0069cc;
     text-align: center;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: auto;
 }
 
 .content {
     color: #111;
     text-align: center;
-    padding-bottom: 20px;
-    padding: 0px 200px;
-    margin: 0px 5px;
     font-size: 20px;
+    margin: auto;
 }
