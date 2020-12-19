@@ -16,7 +16,7 @@ const News = () => {
                    <p className='News-info'>
                    ACM strengthens the profession's collective voice through strong leadership, promotion of the highest standards, and recognition of technical excellence. ACM supports the professional growth of its members by providing opportunities for life‐long learning, career development, and professional networking
                    </p>
-                   <a className="Link" href="https://www.acm.org/" target="_blank">Read More</a>
+                   <a className="Link" href="https://www.acm.org/" target="">Read More</a>
                    </body>
                    
                </Col>
