@@ -22,19 +22,22 @@ const Navbar = (props) => {
             direction: 'alternate',
             duration: 5000
         });
-        logoTextAnimation.add({
-            targets: '.logo-text',
-            color: '#FF6C00',
-            easing: 'easeInOutCirc',
-        }).add({
+        logoTextAnimation
+        // .add({
+        //     targets: '.logo-text',
+        //     color: '#FF6C00',
+        //     easing: 'easeInOutCirc',
+        // })
+        .add({
             targets: '.logo-text',
             color: '#09FF00',
             easing: 'easeInOutCirc',
-        }).add({
-            targets: '.logo-text',
-            color: '#FF00FF',
-            easing: 'easeInOutCirc',
-        });
+        })
+        // .add({
+        //     targets: '.logo-text',
+        //     color: '#FF00FF',
+        //     easing: 'easeInOutCirc',
+        // });
         window.addEventListener("scroll", () => {
             if (window.scrollY > 100) {
                 handleShow(true);
