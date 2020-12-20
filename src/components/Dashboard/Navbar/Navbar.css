@@ -9,7 +9,7 @@
 .nav {
     font-family: Jura, sans-serif;
     /* padding: 4vh 0; */
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0);
     position: fixed;
     top: 0;
     width: 100%;
