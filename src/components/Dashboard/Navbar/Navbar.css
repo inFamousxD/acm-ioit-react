@@ -58,7 +58,7 @@
     justify-content: center;
     align-items: center;
     position: fixed;
-    left: 60%;
+    left: 55%;
 }
 
 .nav_item:not(:last-child) {
