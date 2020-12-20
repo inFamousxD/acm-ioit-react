@@ -118,7 +118,7 @@ const TitleAnimation = () => {
     }, [])
     return (
         <Row style={{paddingTop: '5rem'}} className='title-animation base'>
-            <Particles style={{ position: 'absolute', width: '100%', height: '90vh', top: 0, left: 0 }}
+            <Particles style={{ position: 'absolute', width: '100%', height: '90vh', top: 0, left: 0, opacity: '0.8' }}
                 params={paramsToParticle}
             ></Particles>
             <Col xs={12} lg={5} md={5} xl={5}>
