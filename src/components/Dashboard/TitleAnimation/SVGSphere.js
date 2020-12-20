@@ -4,9 +4,9 @@ import {anime} from 'react-anime';
 
 const SVGSphere = () => {
     React.useEffect(() => {
-        function fitElementToParent(el, padding) {
+        const fitElementToParent = (el, padding) => {
             var timeout = null;
-            function resize() {
+            const resize = () => {
               if (timeout) clearTimeout(timeout);
               anime.set(el, {scale: 1});
               // var pad = padding || 0;
@@ -20,7 +20,7 @@ const SVGSphere = () => {
             window.addEventListener('resize', resize);
           }
           
-          (function() {
+          (() => {
           
             var sphereEl = document.querySelector('.sphere-animation');
             var spherePathEls = sphereEl.querySelectorAll('.sphere path');
@@ -42,8 +42,8 @@ const SVGSphere = () => {
                   }));
                 }
               },
-              update: function(ins) {
-                aimations.forEach(function(animation, i) {
+              update: (ins) => {
+                aimations.forEach((animation, i) => {
                   var percent = (1 - Math.sin((i * .35) + (.0022 * ins.currentTime))) / 2;
                   animation.seek(animation.duration * percent);
                 });
@@ -79,7 +79,7 @@ const SVGSphere = () => {
                 autoplay: false
               }, 0);
           
-            function init() {
+            const init = () => {
               introAnimation.play();
               breathAnimation.play();
               shadowAnimation.play();

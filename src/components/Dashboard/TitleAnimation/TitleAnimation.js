@@ -8,7 +8,7 @@ import Particles from 'react-particles-js';
 const paramsToParticle = {
     particles: {
         number: {
-            value: 60,
+            value: 40,
             density: {
             enable: true,
             value_area: 800
@@ -92,6 +92,9 @@ const paramsToParticle = {
 }
 
 const TitleAnimation = () => {
+    const scrollRef = React.useRef(null);
+    const scrollTo = () => scrollRef.current.scrollIntoView({ behavior: 'smooth' });
+
     React.useEffect(() => {
         let unleashedAnimation = anime.timeline({
             loop: true,
@@ -99,24 +102,26 @@ const TitleAnimation = () => {
             direction: 'alternate',
             duration: 5000
         });
-        unleashedAnimation
-        // .add({
-        //     targets: '.unleashed',
-        //     color: '#FF6C00',
-        //     easing: 'easeInOutCirc',
-        // })
-        .add({
-            targets: '.unleashed',
+        unleashedAnimation.add({
+            targets: '.unleashed, .scroll-indicator',
             color: '#09FF00',
             easing: 'easeInOutCirc',
-        })
-        // .add({
-        //     targets: '.unleashed',
-        //     color: '#FF00FF',
-        //     easing: 'easeInOutCirc',
-        // });
+        });
+
+        let scroller = anime.timeline({
+            loop: true,
+            autoplay: true,
+            direction: 'alternate',
+            duration: 800
+        });
+        scroller.add({
+            targets: '.scroll-indicator',
+            easing: 'easeInOutQuad',
+            translateY: 15
+        });
     }, [])
     return (
+        <div>
         <Row style={{paddingTop: '5rem'}} className='title-animation base'>
             <Particles style={{ position: 'absolute', width: '100%', height: '90vh', top: 0, left: 0, opacity: '0.8' }}
                 params={paramsToParticle}
@@ -142,8 +147,12 @@ const TitleAnimation = () => {
                 }}>
                     ACM brings together computing educators, researchers, and professionals to inspire dialogue, share resources, and address the field's challenges. As the world’s largest computing society, ACM strengthens the profession's collective voice through strong leadership, promotion of the highest standards, and recognition of technical excellence.   
                 </div>
+                <div className='fa fa-chevron-down title-animation-side scroll-indicator' onClick={scrollTo}></div>
             </Col>
+            
         </Row>
+        <div ref={scrollRef}></div>
+        </div>
     )
 }
 

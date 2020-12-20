@@ -24,3 +24,12 @@
     background-color: #00aaff;
     border-radius: 15%;
 }
+
+.scroll-indicator {
+    margin-top: 20vh;
+    font-size: 4vh;
+    color: #00aaff;
+    padding-right: 5.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
