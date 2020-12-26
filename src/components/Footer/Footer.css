@@ -15,22 +15,22 @@
     /* background: #0069cc */
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
   }
   footer .container {
+    margin: 0;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: row;
   }
   
   footer .container .sec {
-  
-    margin-right: 30px;
+    margin-right: 10px;
   }
   
   footer .container .sec.about__sec {
-    width: 40%; 
+    width: 32%;
   }
   
   footer .container h2 {
@@ -85,7 +85,7 @@
   
   .quickLinks {
     position: relative;
-    width: calc(35% -60px);
+    width: calc(25%-110px);
   }
   
   .quickLinks li {
@@ -105,7 +105,7 @@
   }
   
   .contact {
-    width: 35%;
+    width: 23%;
     /* margin-right: 0 !important; */
   }
   
