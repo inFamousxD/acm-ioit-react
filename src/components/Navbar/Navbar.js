@@ -61,7 +61,7 @@ const Navbar = (props) => {
             <ul className={click ? "nav_list active" : "nav_list"}>
             {MenuItems.map(({ id, title, cName }) => (
                 <li key={id} className="nav_item">
-                <Link className={cName}>{title}</Link>
+                <Link to='' className={cName}>{title}</Link>
                 </li>
             ))}
             </ul>
