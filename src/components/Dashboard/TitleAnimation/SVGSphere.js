@@ -90,14 +90,14 @@ const SVGSphere = () => {
           })();
     }, []);
     return (
-        <div class="animation-wrapper">
-            <div class="sphere-animation">
-                <svg class="sphere" viewBox="0 0 440 440" stroke="rgba(80,80,80,.35)">
+        <div className="animation-wrapper">
+            <div className="sphere-animation">
+                <svg className="sphere" viewBox="0 0 440 440" stroke="rgba(80,80,80,.35)">
                 <defs>
                     <linearGradient id="sphereGradient" x1="5%" x2="5%" y1="0%" y2="15%">
-                    <stop stop-color="#373734" offset="0%"/>
-                    <stop stop-color="#242423" offset="50%"/>
-                    <stop stop-color="#0D0D0C" offset="100%"/>
+                    <stop stopColor="#373734" offset="0%"/>
+                    <stop stopColor="#242423" offset="50%"/>
+                    <stop stopColor="#0D0D0C" offset="100%"/>
                     </linearGradient>
                 </defs>
                 <path d="M361.604 361.238c-24.407 24.408-51.119 37.27-59.662 28.727-8.542-8.543 4.319-35.255 28.726-59.663 24.408-24.407 51.12-37.269 59.663-28.726 8.542 8.543-4.319 35.255-28.727 59.662z"/>
