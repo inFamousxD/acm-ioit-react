@@ -22,3 +22,9 @@
         stroke-width: 2px;
     }
 }
+
+@media screen and (max-width: 786px) {
+    .sphere-animation {
+        margin-left: 2vw;
+    }
+}
