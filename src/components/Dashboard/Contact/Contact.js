@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Row, Col } from 'react-bootstrap';
 import './Contact.css';
-
+import { MapContainer, TileLayer, Marker } from 'react-leaflet';
 
 
 const Contact = () => {
@@ -31,6 +31,16 @@ const formSubmit = (e) => {
 }
 
 
+const inputStyle = {
+  backgroundColor: '#00aaff',
+  border: '0px',
+  borderBottom: '1px solid black',
+  borderRadius: '0%',
+  color: '#000',
+  fontSize: '1rem',
+  fontWeight: 'bold',
+  boxShadow: '0px 0px'
+}
 
 // Please use Row, Col, Container directly from react-bootstrap, I have provided a sample below. Otherwise we'd be underutilizing react's optimisation power.
 // Also when copy-pasting pre-made bootstrap components, make sure to change "class" to "className" and "for" to "htmlFor". I've done it for now as I didn't want reference
@@ -39,12 +49,25 @@ const formSubmit = (e) => {
 
 return (
   
-<div className = 'container-fluid contact_div p-3 mb-5 ' >
+<div className = 'container-fluid contact-div p-3' >
   <Row>
-    <Col sm={12} lg={4} md={4} xl={4}>
-      {/* Map will go here */}
+    <Col sm={12} lg={5} md={5} xl={5}>
+      <div className='map-container'>
+        <MapContainer scrollWheelZoom={false} style={{
+          height: '30rem',
+          zIndex: '1',
+          marginTop: '3rem',
+          marginLeft: '2rem'
+        }} center={[18.530989,73.8672683]} zoom={17}>
+          <TileLayer
+            attribution = 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
+            url = 'https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw'
+          />
+          <Marker position={[18.530989,73.8672683]} />
+        </MapContainer>
+      </div>
     </Col>
-    <Col sm={12} lg={8} md={8} xl={8}>
+    <Col sm={12} lg={7} md={7} xl={7}>
       <div className = 'my-5 '><h1 className = 'text-center font-weight-bolder'>Contact Us</h1></div>
         <div className = 'row'>
         <div className = 'col-md-6 col-10 mx-auto'>
@@ -52,19 +75,19 @@ return (
             <form onSubmit = {formSubmit}>
               <div className = 'mb-3'>
                 <label htmlFor = 'exampleFormControlInput1' className = 'form-label font-weight-bold  '>Full Name</label>
-                <input type = 'text' className = 'form-control border-aqua' id = 'exampleFormControlInput1' name = 'fullname' value = {data.fullname} onChange = {InputEvent} placeholder = 'Enter your Name' />
+                <input style={inputStyle} type = 'text' className = 'form-control border-aqua' id = 'exampleFormControlInput1' name = 'fullname' value = {data.fullname} onChange = {InputEvent}/>
               </div>
                 <div className = 'mb-3'>
                 <label htmlFor = 'exampleFormControlInput1' className = 'form-label font-weight-bold '>Email address</label>
-                <input type = 'email' className = 'form-control' id = 'exampleFormControlInput1' name = 'email' value = {data.email} onChange = {InputEvent} placeholder = 'Enter your Email Id' />
+                <input style={inputStyle} type = 'email' className = 'form-control' id = 'exampleFormControlInput1' name = 'email' value = {data.email} onChange = {InputEvent} />
               </div>
               <div className = 'mb-3'>
                 <label htmlFor = 'exampleFormControlInput1' className = 'form-label font-weight-bold '>Mobile Number</label>
-                <input type = 'number' className = 'form-control' id = 'exampleFormControlInput1' name = 'phone' value = {data.phone} onChange = {InputEvent} placeholder = 'Enter Mobile Number' />
+                <input style={inputStyle} type = 'number' className = 'form-control' id = 'exampleFormControlInput1' name = 'phone' value = {data.phone} onChange = {InputEvent} />
               </div>
               <div className = 'mb-3'>
                 <label htmlFor = 'exampleFormControlTextarea1' className = 'form-label font-weight-bold '>Message</label>
-                <textarea className = 'form-control' id = 'exampleFormControlTextarea1' rows = '3'  name = 'msg' value = {data.msg} onChange = {InputEvent}></textarea>
+                <textarea style={inputStyle} className = 'form-control' id = 'exampleFormControlTextarea1' rows = '3'  name = 'msg' value = {data.msg} onChange = {InputEvent}></textarea>
               </div>
               <div className = 'col-12 text-center'>
                 <button className = 'btn btn-outline-dark font-weight-bold' type = 'submit'>SEND</button>
