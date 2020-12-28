@@ -14,10 +14,11 @@
 }
 
 .about-ioit-body {
+    margin: 0;
     font-size: 2.5vh;
     color: #fff;
-    padding-bottom: 10vh;
-
+    /* padding-bottom: 10vh; */
+    padding: 0 2vh 10vh 2vh;
     text-indent: 6rem;
     text-align: justify;
 }
