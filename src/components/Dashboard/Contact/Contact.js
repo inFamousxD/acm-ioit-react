@@ -62,7 +62,9 @@ return (
           height: '52.5vh',
           zIndex: '1',
           marginTop: '3rem',
-          marginLeft: '2rem'
+          marginLeft: '2rem',
+          borderRadius: '1%',
+          border: '2px solid black'
         }} center={[18.530989,73.8672683]} zoom={17}>
           <TileLayer
             attribution = 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
