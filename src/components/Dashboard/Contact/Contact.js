@@ -37,9 +37,14 @@ const inputStyle = {
   borderBottom: '1px solid black',
   borderRadius: '0%',
   color: '#000',
-  fontSize: '1rem',
+  fontSize: '1.8vh',
   fontWeight: 'bold',
   boxShadow: '0px 0px'
+}
+
+const labelStyle = {
+  fontWeight: 'bold',
+  fontSize: '1.8vh'
 }
 
 // Please use Row, Col, Container directly from react-bootstrap, I have provided a sample below. Otherwise we'd be underutilizing react's optimisation power.
@@ -54,10 +59,12 @@ return (
     <Col sm={12} lg={5} md={5} xl={5}>
       <div className='map-container'>
         <MapContainer scrollWheelZoom={false} style={{
-          height: '30rem',
+          height: '52.5vh',
           zIndex: '1',
           marginTop: '3rem',
-          marginLeft: '2rem'
+          marginLeft: '2rem',
+          borderRadius: '1%',
+          border: '2px solid black'
         }} center={[18.530989,73.8672683]} zoom={17}>
           <TileLayer
             attribution = 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
@@ -74,19 +81,19 @@ return (
           <div className = 'mb-3'>
             <form onSubmit = {formSubmit}>
               <div className = 'mb-3'>
-                <label htmlFor = 'exampleFormControlInput1' className = 'form-label font-weight-bold  '>Full Name</label>
-                <input style={inputStyle} type = 'text' className = 'form-control border-aqua' id = 'exampleFormControlInput1' name = 'fullname' value = {data.fullname} onChange = {InputEvent}/>
+                <label style={labelStyle} htmlFor = 'exampleFormControlInput1' className = 'form-label'>Full Name</label>
+                <input style={inputStyle} type = 'text' className = 'form-control' id = 'exampleFormControlInput1' name = 'fullname' value = {data.fullname} onChange = {InputEvent}/>
               </div>
                 <div className = 'mb-3'>
-                <label htmlFor = 'exampleFormControlInput1' className = 'form-label font-weight-bold '>Email address</label>
+                <label style={labelStyle} htmlFor = 'exampleFormControlInput1' className = 'form-label'>Email address</label>
                 <input style={inputStyle} type = 'email' className = 'form-control' id = 'exampleFormControlInput1' name = 'email' value = {data.email} onChange = {InputEvent} />
               </div>
               <div className = 'mb-3'>
-                <label htmlFor = 'exampleFormControlInput1' className = 'form-label font-weight-bold '>Mobile Number</label>
+                <label style={labelStyle} htmlFor = 'exampleFormControlInput1' className = 'form-label'>Mobile Number</label>
                 <input style={inputStyle} type = 'number' className = 'form-control' id = 'exampleFormControlInput1' name = 'phone' value = {data.phone} onChange = {InputEvent} />
               </div>
               <div className = 'mb-3'>
-                <label htmlFor = 'exampleFormControlTextarea1' className = 'form-label font-weight-bold '>Message</label>
+                <label style={labelStyle} htmlFor = 'exampleFormControlTextarea1' className = 'form-label'>Message</label>
                 <textarea style={inputStyle} className = 'form-control' id = 'exampleFormControlTextarea1' rows = '3'  name = 'msg' value = {data.msg} onChange = {InputEvent}></textarea>
               </div>
               <div className = 'col-12 text-center'>

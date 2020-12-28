@@ -4,13 +4,17 @@ import { Container } from 'react-bootstrap';
 
 
 const Footer = () => {
+  const textStyle = {
+    fontWeight: 'bold'
+  }
+
   return (
     <div>
       <footer>
         <Container>
           <div className="sec about__sec">
             <h2>About ACM</h2>
-            <p>
+            <p style={textStyle}>
               ACM IOIT Student Chapter was founded on 2019, with a vision to
               carry forward ACM’s international intentions on a grass root level
               at AISSMS’ Institute of Information Technology.
@@ -47,7 +51,7 @@ const Footer = () => {
                 <span>
                   <i className="fas fa-map-marker-alt"></i>
                 </span>
-                <span>
+                <span style={textStyle}>
                   AISSMS IOIT ACM Student Chapter. RB Motilal Kennedy Road, near
                   RTO, Sangamvadi, Pune-411001
                 </span>
@@ -62,7 +66,7 @@ const Footer = () => {
                   <i className="far fa-envelope"></i>
                 </span>
                 <p>
-                  <a href="mailto:support@ioit.acm.org">support@ioit.acm.org</a>
+                  <a style={textStyle} href="mailto:support@ioit.acm.org">support@ioit.acm.org</a>
                 </p>
               </li>
             </ul>
@@ -72,16 +76,16 @@ const Footer = () => {
             <h2>Quick Links</h2>
             <ul>
               <li>
-                <a href="localhost:3000">About</a>
+                <a style={textStyle} href="localhost:3000">About</a>
               </li>
               <li>
-                <a href="localhost:3000">Home</a>
+                <a style={textStyle} href="localhost:3000">Home</a>
               </li>
               <li>
-                <a href="https://dl.acm.org/">ACM Digital Library</a>
+                <a style={textStyle} href="https://dl.acm.org/">ACM Digital Library</a>
               </li>
               <li>
-                <a href="localhost:3000">Membership</a>
+                <a style={textStyle} href="localhost:3000">Membership</a>
               </li>
             </ul>
           </div>
