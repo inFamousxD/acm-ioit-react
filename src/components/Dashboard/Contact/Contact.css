@@ -3,3 +3,9 @@
     background-color: #00aaff;
     font-size: 15px;
 };
+
+@media screen and (max-width: 786px) {
+    .map-container {
+        margin: 0px 0px;
+    }
+}

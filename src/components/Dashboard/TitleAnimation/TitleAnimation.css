@@ -32,3 +32,9 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+
+@media screen and (max-width: 786px) {
+    .title-animation-side {
+        display: none;
+    }
+}
