@@ -21,7 +21,7 @@ const TitleAnimation = () => {
             backgroundColor: '#0069cc',
             scale: [0.6, 2],
             opacity: [0, 0.75],
-            borderRadius: anime.stagger(['10%', '10%'], {grid: [32, 5], from: 'center'}),
+            borderRadius: anime.stagger(['10%', '10%'], {grid: [32, 5], from: 'center'})
         }).add({ // transform into circles
             targets: '.square',
             rotateZ: anime.stagger([315, 315], {grid: [32, 5], from: 'center', axis: 'x'}),
