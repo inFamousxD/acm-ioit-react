@@ -23,21 +23,11 @@ const Navbar = (props) => {
             duration: 5000
         });
         logoTextAnimation
-        // .add({
-        //     targets: '.logo-text',
-        //     color: '#FF6C00',
-        //     easing: 'easeInOutCirc',
-        // })
         .add({
             targets: '.logo-text',
             color: '#09FF00',
             easing: 'easeInOutCirc',
         })
-        // .add({
-        //     targets: '.logo-text',
-        //     color: '#FF00FF',
-        //     easing: 'easeInOutCirc',
-        // });
         window.addEventListener("scroll", () => {
             if (window.scrollY > 100) {
                 handleShow(true);
@@ -49,11 +39,6 @@ const Navbar = (props) => {
     return (
         <nav className={`nav ${show && "nav_black"}`}>
         <div className="nav_center container">
-            {/* <img
-                className="logo"
-                src={acmLogo}
-                alt="ACM Logo"
-            /> */}
             <div className='logo-text'>
                 ACM IOIT
             </div>

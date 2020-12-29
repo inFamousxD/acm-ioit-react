@@ -9,7 +9,7 @@ const DigitalLibrary = () => {
                 backgroundColor: '#000'
             }} />
             <div className='digital-library-container'>
-                ACM DIGITAL LIBRARY
+                ACM DIGITAL LIBRARY /Placeholder
             </div>
         </React.Fragment>
     )
