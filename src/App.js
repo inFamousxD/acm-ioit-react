@@ -1,16 +1,16 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Dashboard from './components/Dashboard/Dashboard';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
-import Team from './components/Dashboard/Team/Team';
-import Membership from './components/Dashboard/Membership/Membership';
-import Events from './components/Dashboard/Events/Events';
-import Contact from './components/Dashboard/Contact/Contact';
-import AboutIOIT from './components/Dashboard/AboutIOIT/AboutIOIT';
+// import Team from './components/Dashboard/Team/Team';
+// import Membership from './components/Dashboard/Membership/Membership';
+// import Events from './components/Dashboard/Events/Events';
+// import Contact from './components/Dashboard/Contact/Contact';
+// import AboutIOIT from './components/Dashboard/AboutIOIT/AboutIOIT';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
     <div>
       <Router>
         <Navbar />
-        <Switch>
+        {/* <Switch>
           <Route path="/" exact>
             <Dashboard />
           </Route>
@@ -38,8 +38,9 @@ function App() {
             <Contact />
           </Route>
           <Redirect to = "/" />
-        </Switch>
+        </Switch> */}
       </Router>
+      <Dashboard />
       <Footer />
     </div>
     </React.Fragment>
