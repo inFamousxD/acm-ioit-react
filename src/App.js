@@ -19,7 +19,7 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path="/acm-ioit-react/" exact>
+          <Route path="acm-ioit-react/" exact>
             <Dashboard />
           </Route>
           <Route path="/About" exact>
@@ -37,7 +37,7 @@ function App() {
           <Route path="/Contact" exact>
             <Contact />
           </Route>
-          <Redirect to = "/" />
+          <Redirect to = "acm-ioit-react/" />
         </Switch>
       </Router>
       <Footer />
