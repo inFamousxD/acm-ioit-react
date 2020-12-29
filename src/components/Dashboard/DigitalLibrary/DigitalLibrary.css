@@ -1,4 +1,22 @@
 .digital-library-container {
-    background-color: #222;
+    background-color: #00aaff;
     height: 70vh;
+}
+
+.gear-main {
+    margin: 15vh 0vw 5vh 35vw;
+    height: 40vh;
+    width: 40vh;
+}
+
+.gear-secondary {
+    height: 25vh;
+    width: 25vh;
+    margin-left: -1vh;
+}
+
+.gear-ternary {
+    height: 12.5vh;
+    width: 12.5vh;
+    margin: 23vh 0vh 0vh -5vh;
 }
