@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import { Link } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 import { FaBars, FaTimes } from "react-icons/fa";
 import MenuItems from "./MenuItems";
 import "./Navbar.css";
@@ -61,7 +61,7 @@ const Navbar = (props) => {
             <ul className={click ? "nav_list active" : "nav_list"}>
             {MenuItems.map(({ id, title, cName }) => (
                 <li key={id} className="nav_item">
-                <Link to='' className={cName}>{title}</Link>
+                <NavLink to={`/${title}`} className={cName}>{title}</NavLink>
                 </li>
             ))}
             </ul>
