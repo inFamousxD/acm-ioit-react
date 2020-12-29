@@ -103,7 +103,7 @@ const TitleAnimation = () => {
             duration: 5000
         });
         unleashedAnimation.add({
-            targets: '.unleashed, .scroll-indicator',
+            targets: '.unleashed, .scroll-indicator, .about-ioit-header',
             color: '#09FF00',
             easing: 'easeInOutCirc',
         });
