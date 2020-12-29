@@ -19,13 +19,13 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-        <Route path="/" exact>
+          <Route path="/" exact>
             <Dashboard />
           </Route>
           <Route path="/About" exact>
             <AboutIOIT />
           </Route>
-        <Route path="/Events" exact>
+          <Route path="/Events" exact>
             <Events />
           </Route>
           <Route path="/Membership" exact>
