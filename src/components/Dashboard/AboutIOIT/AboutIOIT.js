@@ -13,8 +13,11 @@ const AboutIOIT = () => {
                     About Institute of Information Technology
                 </Row>
                 <Row className='about-ioit-body'>
-                <p>All India Shri Shivaji Memorial Society’s Institute of Information Technology, Pune was established in August 1999. The college is a self-financing college and is affiliated to Savitribai Phule Pune University (SPPU). It is approved by AICTE and Director of Technical Education, Maharashtra State. The College is centrally located in the heart of Pune City about 1 km from Pune and Shivaji Nagar Railway Stations. The institute enhances the teaching-learning experience by providing students greater resources, contact with industries and academia, employment opportunities and internships.</p>
-                <p>The institute has well qualified and dedicated staff with good infrastructure facilities for UG and PG courses in the form of well-equipped laboratories in all the branches, namely, Computer Engineering, Electrical Engineering, Instrumentation Engineering, Electronics and Telecommunication Engineering, Information Technology and Artificial Intelligence and Data Sciences. The Institute also has Research centre for Electronics and Telecommunication Engineering.</p>
+                 Located at the heart of Pune city, AISSMS IOIT was established in August 1999. 
+                 The college has been a prime engineering institute of the city for the past decade. 
+                 The institute not only offers courses in core-engineering branches but also in upcoming IT trends such as Machine Learning, Artificial Intelligence and Data Sciences. 
+                 With good infrastructural facilities, the institute has enhanced the teaching-learning experience by providing students greater resources, contact with industries and academia, employment opportunities and internships, etc. 
+                 Many entrepreneurs and researchers have also been produced by the institute. It is the mission of the college to empower the society through dynamic education.
                 </Row>
             </Container>
         </div>
