@@ -10,7 +10,7 @@ const AboutIOIT = () => {
         <div style={{ backgroundColor: '#000' }}>
             <Container fluid={true} className='about-ioit-container'>
                 <Row className='about-ioit-header'>
-                    About Institute of Information Technology
+                    . . / About / Institute_of_Information_Technology
                 </Row>
                 <Row className='about-ioit-body'>
                  Located at the heart of Pune city, AISSMS IOIT was established in August 1999. 
