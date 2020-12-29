@@ -1,8 +1,8 @@
 import React from 'react';
 
 import TitleAnimation from './TitleAnimation/TitleAnimation';
-import Contact from './Contact/Contact';
-import AboutIOIT from './AboutIOIT/AboutIOIT';
+import Contact from '../Contact/Contact';
+import AboutIOIT from '../AboutIOIT/AboutIOIT';
 import DigitalLibrary from './DigitalLibrary/DigitalLibrary';
 import News from './NewsFlash/News';
 
@@ -18,4 +18,4 @@ const Dashboard = () => {
     )
 }
 
-export default Dashboard
+export default Dashboard;
