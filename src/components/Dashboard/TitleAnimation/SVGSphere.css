@@ -26,5 +26,10 @@
 @media screen and (max-width: 786px) {
     .sphere-animation {
         margin-left: 2vw;
+        display: none;
+    }
+
+    .animation-wrapper {
+        display: none;
     }
 }
