@@ -7,5 +7,6 @@
 @media screen and (max-width: 786px) {
     .map-container {
         margin: 0px 0px;
+        display: none;
     }
 }
