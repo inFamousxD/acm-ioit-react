@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Row, Col } from 'react-bootstrap';
 import './Contact.css';
-// import { MapContainer, TileLayer, Marker } from 'react-leaflet';
-
+import { MapContainer, TileLayer, Marker } from 'react-leaflet';
+// import Animation from './Animation';
 
 const Contact = () => {
   const [data, setData] = useState({
@@ -57,7 +57,7 @@ return (
 <div className = 'container-fluid contact-div p-3' >
   <Row>
     <Col sm={12} lg={5} md={5} xl={5}>
-      {/* <div className='map-container'>
+      <div className='map-container'>
         <MapContainer scrollWheelZoom={false} style={{
           height: '52.5vh',
           zIndex: '1',
@@ -72,6 +72,9 @@ return (
           />
           <Marker position={[18.530989,73.8672683]} />
         </MapContainer>
+      </div>
+      {/* <div>
+        <Animation />
       </div> */}
     </Col>
     <Col sm={12} lg={7} md={7} xl={7}>
