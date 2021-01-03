@@ -20,13 +20,13 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/acm-ioit-react/" exact>
-              <Dashboard />
+            <Dashboard />
           </Route>
           <Route path="/acm-ioit-react/About" exact>
               <AboutIOIT />
           </Route>
           <Route path="/acm-ioit-react/Events" exact>
-              <Events />
+            <Events />
           </Route>
           <Route path="/acm-ioit-react/Membership" exact>
               <Membership />
@@ -37,7 +37,7 @@ function App() {
           <Route path="/acm-ioit-react/Contact" exact>
             <Contact />
           </Route>
-          <Redirect to = "/acm-ioit-react" />
+          <Redirect to = "/acm-ioit-react/" />
         </Switch>
       </Router>
       <Footer />

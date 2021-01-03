@@ -1,0 +1,29 @@
+.carousel-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border: 1px solid #999999;
+}
+
+.carousel-body{
+    margin-bottom: 0%;
+}
+
+.carousel-image:hover{
+    border: 1px solid #0069cc;
+}
+
+.carousel-image__effect:hover,
+.carousel-image__effect:active {
+  border-color: #FFFFFF;
+  transition: 1s;
+}
+
+.button-body{
+    background-color: #111;
+}
+
+.jumbotron-body:active{
+    transition: 1s;
+}

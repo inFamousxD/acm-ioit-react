@@ -8,5 +8,13 @@
   bottom: 20px;
   color: #0069cc;
   cursor: pointer; 
-
 }
+
+.news-body{
+  padding-top: 5%;
+  background: #2222;
+  margin-block: 0%;
+  min-height: 80vh;
+  background: #111;
+}
+

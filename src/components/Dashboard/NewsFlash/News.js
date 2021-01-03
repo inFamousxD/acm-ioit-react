@@ -1,11 +1,20 @@
 import React from 'react';
 
-const News = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+import Carousel from './components/Carousel';
 
-export default News
+import './News.css';
+
+const News = () => {
+
+  return(
+    <div className="news-body">
+    <React.Fragment>
+      <div className="carousel-body">
+        <Carousel/>
+      </div>
+    </React.Fragment>
+    </div>
+  )
+};
+
+export default News;
