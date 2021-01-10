@@ -20,5 +20,23 @@
     /* padding-bottom: 10vh; */
     padding: 0 2vh 10vh 2vh;
     text-indent: 6rem;
-    text-align: justify;
+    text-align: center;
+}
+
+@media screen and (max-width: 786px) {
+    .about-ioit-container {
+        width: 98%;
+    }
+    .about-ioit-header {
+        font-size: 2.5vh;
+        padding-bottom: 0vh;
+        padding-top: 5vh;
+        text-align: center;
+    }
+    .about-ioit-body {
+        font-size: 1.9vh;
+        padding: 5vh 0px 6vh 0px;
+        text-indent: 2rem;
+        text-align: center;
+    }
 }

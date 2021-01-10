@@ -3,3 +3,20 @@
     background-color: #00aaff;
     font-size: 15px;
 };
+
+@media screen and (max-width: 786px) {
+    .map-container {
+        margin: 0px 0px;
+        display: none;
+    }
+}
+
+input::placeholder {
+    color: #111;
+    opacity: 1;
+}
+
+input:placeholder-shown {
+    border:none;
+    background: #00aaff;
+  }
