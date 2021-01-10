@@ -100,7 +100,7 @@ const ControlledCarousel = () => {
           itemClass="carousel-item-padding-40-px"
         >
           {DUMMY.map(dummy =>
-            <div className="carousel-image__effect">
+            <div key={dummy.id} className="carousel-image__effect">
               <img
                 key= {dummy.id}
                 index-key = {dummy.id}
