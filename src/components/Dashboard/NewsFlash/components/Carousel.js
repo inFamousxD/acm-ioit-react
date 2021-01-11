@@ -91,7 +91,7 @@ const ControlledCarousel = () => {
           draggable={false}
           showDots={true}
           responsive={responsive}
-          autoPlay={true}
+          autoPlay={showContent ? false : true}
           autoPlaySpeed={5000}
           infinite={true}
           keyBoardControl={true}
