@@ -91,9 +91,11 @@ const ControlledCarousel = () => {
           draggable={false}
           showDots={true}
           responsive={responsive}
+          autoPlay={showContent ? false : true}
+          autoPlaySpeed={5000}
           infinite={true}
           keyBoardControl={true}
-          customTransition="all .5"
+          customTransition="transform 300ms ease-in-out"
           transitionDuration={500}
           containerClass="carousel-container"
           dotListClass="custom-dot-list-style"
