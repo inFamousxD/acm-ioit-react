@@ -4,10 +4,11 @@ import Carousel from 'react-multi-carousel';
 import "react-multi-carousel/lib/styles.css";
 import Jumbotron from './Jumbotron';
 import Button from './Button';
-
-import placeholderImage from '../../../../assets/placeholder.jpg';
+// import placeholderImage from '../../../../assets/placeholder.jpg';
 
 import './Carousel.css';
+
+const placeholderImage = 'https://wallpaperaccess.com/full/2454628.png'
 
 const ControlledCarousel = () => {
   
@@ -35,14 +36,38 @@ const ControlledCarousel = () => {
       title: "4th Slide",
       text: "OK!",
       image: placeholderImage
+    },
+    {
+      id: 4,
+      title: "5th Slide",
+      text: "OK!",
+      image: placeholderImage
+    },
+    {
+      id: 5,
+      title: "6th Slide",
+      text: "OK!",
+      image: placeholderImage
+    },
+    {
+      id: 6,
+      title: "7th Slide",
+      text: "OK!",
+      image: placeholderImage
+    },
+    {
+      id: 7,
+      title: "8th Slide",
+      text: "OK!",
+      image: placeholderImage
     }
   ];
 
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3,
-      slidesToSlide: 3 // optional, default to 1.
+      items: 4,
+      slidesToSlide: 4 // optional, default to 1.
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -88,15 +113,15 @@ const ControlledCarousel = () => {
       <div className="carousel-body">
         <Carousel 
           swipeable={false}
-          draggable={false}
+          draggable={true}
           showDots={true}
           responsive={responsive}
           autoPlay={showContent ? false : true}
           autoPlaySpeed={5000}
           infinite={true}
           keyBoardControl={true}
-          customTransition="transform 300ms ease-in-out"
-          transitionDuration={500}
+          customTransition="all 300ms ease-in-out"
+          transitionDuration={1000}
           containerClass="carousel-container"
           dotListClass="custom-dot-list-style"
           itemClass="carousel-item-padding-40-px"
@@ -122,7 +147,7 @@ const ControlledCarousel = () => {
         </div>
         <div align="center" className = "button-body">
           {showContent &&
-            <Button onClick={closeHandler}>Close</Button>
+            <Button onClick={closeHandler}>CLOSE</Button>
           }
         </div>
       </div>

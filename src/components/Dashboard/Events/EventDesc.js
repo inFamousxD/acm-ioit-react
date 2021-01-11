@@ -1,4 +1,4 @@
-const data = [
+export default data = [
     {
         id : "1",
         title : "Game Theory for Internet Age",

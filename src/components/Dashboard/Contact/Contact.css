@@ -11,12 +11,3 @@
     }
 }
 
-input::placeholder {
-    color: #111;
-    opacity: 1;
-}
-
-input:placeholder-shown {
-    border:none;
-    background: #00aaff;
-  }
