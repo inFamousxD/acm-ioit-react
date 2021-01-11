@@ -1,4 +1,47 @@
 .digital-library-container {
-    background-color: #222;
+    background-color: #00aaff;
     height: 70vh;
+}
+
+.gear-main {
+    margin: 15vh 0vw 5vh 35vw;
+    height: 40vh;
+    width: 40vh;
+}
+
+.gear-secondary {
+    height: 25vh;
+    width: 25vh;
+    margin-left: -1vh;
+}
+
+.gear-ternary {
+    height: 12.5vh;
+    width: 12.5vh;
+    margin: 23vh 0vh 0vh -5vh;
+}
+
+@media screen and (max-width: 786px) {
+    .gear-main {
+        margin: 3vh 0vw 5vh 5vw;
+        height: 20vh;
+        width: 20vh;
+    }
+    
+    .gear-secondary {
+        height: 12.5vh;
+        width: 12.5vh;
+        margin-left: -1vh;
+    }
+    
+    .gear-ternary {
+        height: 6.25vh;
+        width: 6.25vh;
+        margin: 12vh 0vh 0vh -3vh;
+    }
+
+    .digital-library-container {
+        background-color: #00aaff;
+        height: 28vh;
+    }
 }

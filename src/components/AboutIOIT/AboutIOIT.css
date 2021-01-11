@@ -1,0 +1,42 @@
+.about-ioit-container {
+    width: 70%;
+    margin: auto;
+}
+
+.about-ioit-header {
+    font-size: 3.5vh;
+    color: #00aaff;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+
+    margin: auto;
+    width: fit-content;
+}
+
+.about-ioit-body {
+    margin: 0;
+    font-size: 2.5vh;
+    color: #fff;
+    /* padding-bottom: 10vh; */
+    padding: 0 2vh 10vh 2vh;
+    text-indent: 6rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 786px) {
+    .about-ioit-container {
+        width: 98%;
+    }
+    .about-ioit-header {
+        font-size: 2.5vh;
+        padding-bottom: 0vh;
+        padding-top: 5vh;
+        text-align: center;
+    }
+    .about-ioit-body {
+        font-size: 1.9vh;
+        padding: 5vh 0px 6vh 0px;
+        text-indent: 2rem;
+        text-align: center;
+    }
+}

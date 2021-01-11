@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Row, Col } from 'react-bootstrap';
 import './Contact.css';
 import { MapContainer, TileLayer, Marker } from 'react-leaflet';
-
+// import Animation from './Animation';
 
 const Contact = () => {
   const [data, setData] = useState({
@@ -73,6 +73,9 @@ return (
           <Marker position={[18.530989,73.8672683]} />
         </MapContainer>
       </div>
+      {/* <div>
+        <Animation />
+      </div> */}
     </Col>
     <Col sm={12} lg={7} md={7} xl={7}>
       <div className = 'my-5 '><h1 className = 'text-center font-weight-bolder'>Contact Us</h1></div>
@@ -82,19 +85,19 @@ return (
             <form onSubmit = {formSubmit}>
               <div className = 'mb-3'>
                 <label style={labelStyle} htmlFor = 'exampleFormControlInput1' className = 'form-label'>Full Name</label>
-                <input style={inputStyle} type = 'text' className = 'form-control' id = 'exampleFormControlInput1' name = 'fullname' value = {data.fullname} onChange = {InputEvent}/>
+                <input style={inputStyle} type = 'text' className = 'form-control' id = 'exampleFormControlInput1' name = 'fullname' value = {data.fullname} onChange = {InputEvent} placeholder="Enter Full Name"/>
               </div>
                 <div className = 'mb-3'>
                 <label style={labelStyle} htmlFor = 'exampleFormControlInput1' className = 'form-label'>Email address</label>
-                <input style={inputStyle} type = 'email' className = 'form-control' id = 'exampleFormControlInput1' name = 'email' value = {data.email} onChange = {InputEvent} />
+                <input style={inputStyle} type = 'email' className = 'form-control' id = 'exampleFormControlInput1' name = 'email' value = {data.email} onChange = {InputEvent} placeholder="Enter Email Id" />
               </div>
               <div className = 'mb-3'>
                 <label style={labelStyle} htmlFor = 'exampleFormControlInput1' className = 'form-label'>Mobile Number</label>
-                <input style={inputStyle} type = 'number' className = 'form-control' id = 'exampleFormControlInput1' name = 'phone' value = {data.phone} onChange = {InputEvent} />
+                <input style={inputStyle} type = 'number' className = 'form-control'  id = 'exampleFormControlInput1' name = 'phone' value = {data.phone} onChange = {InputEvent} placeholder="Enter Phone Number" />
               </div>
               <div className = 'mb-3'>
                 <label style={labelStyle} htmlFor = 'exampleFormControlTextarea1' className = 'form-label'>Message</label>
-                <textarea style={inputStyle} className = 'form-control' id = 'exampleFormControlTextarea1' rows = '3'  name = 'msg' value = {data.msg} onChange = {InputEvent}></textarea>
+                <textarea style={inputStyle} className = 'form-control' id = 'exampleFormControlTextarea1' rows = '3'  name = 'msg' value = {data.msg} onChange = {InputEvent} placeholder="Send us a Message"></textarea>
               </div>
               <div className = 'col-12 text-center'>
                 <button className = 'btn btn-outline-dark font-weight-bold' type = 'submit'>SEND</button>
