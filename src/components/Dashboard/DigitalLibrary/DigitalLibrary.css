@@ -21,6 +21,11 @@
     margin: 23vh 0vh 0vh -5vh;
 }
 
+.wip {
+    text-align: center;
+    font-size: 3.2vh;
+}
+
 @media screen and (max-width: 786px) {
     .gear-main {
         margin: 3vh 0vw 5vh 5vw;

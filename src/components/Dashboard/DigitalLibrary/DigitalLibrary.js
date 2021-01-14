@@ -52,6 +52,7 @@ const DigitalLibrary = () => {
                 backgroundColor: '#000'
             }} />
             <div className='digital-library-container'>
+                <div className='wip'>Work in Progress : .. / DigitalLibrary</div>
                 <img className='gear-main' src='https://img.pngio.com/cogwheel-element-equipment-fix-gearwheel-industry-mechanism-repair-png-gear-wheel-980_982.png' alt='' />
                 <img className='gear-secondary' src='https://img.pngio.com/cogwheel-element-equipment-fix-gearwheel-industry-mechanism-repair-png-gear-wheel-980_982.png' alt='' />
                 <img className='gear-ternary' src='https://img.pngio.com/cogwheel-element-equipment-fix-gearwheel-industry-mechanism-repair-png-gear-wheel-980_982.png' alt='' />

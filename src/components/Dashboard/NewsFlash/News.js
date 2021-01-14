@@ -8,6 +8,7 @@ const News = () => {
 
   return(
     <div className="news-body">
+      <div className="news-header">.. / Events</div>
     <React.Fragment>
       <div className="carousel-body">
         <Carousel/>

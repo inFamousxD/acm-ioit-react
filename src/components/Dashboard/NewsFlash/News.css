@@ -6,7 +6,7 @@
 }
 .Link{
   bottom: 20px;
-  color: #0069cc;
+  color: #00aaff;
   cursor: pointer; 
 }
 
@@ -17,3 +17,9 @@
   background: #111;
 }
 
+.news-header {
+  margin-bottom: 3vh;
+  font-size: 3.2vh;
+  color: #00aaff;
+  text-align: center;
+}
