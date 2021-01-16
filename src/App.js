@@ -1,16 +1,15 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Dashboard from './components/Dashboard/Dashboard';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
-// import Team from './components/Team/Team';
-// import Membership from './components/Membership/Membership';
-// import Events from './components/Events/Events';
-// import Contact from './components/Contact/Contact';
-// import AboutIOIT from './components/AboutIOIT/AboutIOIT';
+import Team from './components/Team/Team';
+import Membership from './components/Membership/Membership';
+import Events from './components/Events/Events';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -18,30 +17,16 @@ function App() {
     <div>
       <Router>
         <Navbar />
-        {/* <Switch>
-          <Route path="/" exact>
-            <Dashboard />
-          </Route>
-          <Route path="/acm-ioit-react/About" exact>
-              <AboutIOIT />
-          </Route>
-          <Route path="/acm-ioit-react/Events" exact>
-            <Events />
-          </Route>
-          <Route path="/acm-ioit-react/Membership" exact>
-              <Membership />
-          </Route>
-          <Route path="/acm-ioit-react/Team" exact>
-            <Team />
-          </Route>
-          <Route path="/acm-ioit-react/Contact" exact>
-            <Contact />
-          </Route>
-          <Redirect to = "/acm-ioit-react/" />
-        </Switch>*/}
-      </Router>
-      <Dashboard />
+        <Route path="/" exact component={Dashboard} />
+        <Switch>
+          <Route path="/Home" exact component={Dashboard} />
+          <Route path="/Events" exact component={Events} />
+          <Route path="/Membership" exact component={Membership} />
+          <Route path="/Team" exact component={Team} />
+          <Route path="/Contact" exact component={Contact} />
+        </Switch>
       <Footer />
+      </Router>
     </div>
     </React.Fragment>
   );
