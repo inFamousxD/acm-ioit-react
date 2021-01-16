@@ -65,7 +65,7 @@ return (
           marginLeft: '2rem',
           borderRadius: '1%',
           border: '2px solid black'
-        }} center={[18.530989,73.8672683]} zoom={17}>
+        }} center={[18.530989,73.8672683]} zoom={15}>
           <TileLayer
             attribution = 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
             url = 'https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw'
