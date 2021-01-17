@@ -12,12 +12,15 @@ import Events from './components/Events/Events';
 import Contact from './components/Contact/Contact';
 import About from './components/About/About';
 
+import ScrollToTop from './components/ScrollToTop';
+
 function App() {
   return (
     <React.Fragment>
     <div>
       <Router>
         <Navbar />
+        <ScrollToTop>
         <Route path="/acm-ioit-react/" exact component={Dashboard} />
         <Switch>
           <Route path="/acm-ioit-react/Home" exact component={Dashboard} />
@@ -27,6 +30,7 @@ function App() {
           <Route path="/acm-ioit-react/Contact" exact component={Contact} />
           <Route path="/acm-ioit-react/About" exact component={About} />
         </Switch>
+        </ScrollToTop>
       <Footer />
       </Router>
     </div>
