@@ -1,52 +1,75 @@
-.digital-library-container {
-    background-color: #00aaff;
+section{
     height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icons{
+    background: #00aaff;
+
 }
 
-.gear-main {
-    margin: 15vh 0vw 5vh 35vw;
-    height: 40vh;
-    width: 40vh;
-}
+  .iconbtn{
+    width: 120px;
+    height: 120px;
+    text-decoration: none;
+    margin: 30px;
+    position: relative;
+    font-size: 45px;
+    border-radius: 50%;
+  }
 
-.gear-secondary {
-    height: 25vh;
-    width: 25vh;
-    margin-left: -1vh;
-}
+  .iconbtn::before{
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
 
-.gear-ternary {
-    height: 12.5vh;
-    width: 12.5vh;
-    margin: 23vh 0vh 0vh -5vh;
-}
+  .iconbtn::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 50%;
+    z-index: 0;
+  }
+  
+  .icons .iconbtn{
+    border: 4px solid #fff;
+    /* color: #00aaff; */
+    color: #111;
+  }
+  .icons .iconbtn::after{
+    background: #fff;
+    transition: 0.4s;
+  }
+  .icons .iconbtn:hover::after{
+    transform: scale(1.3);
+    opacity: 0;
+  }
 
-.wip {
-    text-align: center;
-    font-size: 3.2vh;
-}
-
-@media screen and (max-width: 786px) {
-    .gear-main {
-        margin: 3vh 0vw 5vh 5vw;
-        height: 20vh;
-        width: 20vh;
+  .icons .iconbtn:hover{
+    color: #fff;
+    animation: ro 2s linear infinite;
+  }
+  
+  @keyframes ro {
+    0%{
+      transform: rotate(0);
     }
-    
-    .gear-secondary {
-        height: 12.5vh;
-        width: 12.5vh;
-        margin-left: -1vh;
+    100%{
+      transform: rotate(360deg);
     }
-    
-    .gear-ternary {
-        height: 6.25vh;
-        width: 6.25vh;
-        margin: 12vh 0vh 0vh -3vh;
-    }
+  }
 
-    .digital-library-container {
-        background-color: #00aaff;
-        height: 28vh;
+  @media screen and (max-width: 786px){
+    .icons{
+        display: block;
     }
-}
+  }
