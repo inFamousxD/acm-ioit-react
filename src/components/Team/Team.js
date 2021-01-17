@@ -1,8 +1,11 @@
 import React from 'react';
+import './Team.css'
 
 const Team = () => {
     return(
-        <h2>Team is working</h2>
+        <div className="team-body">
+            Team
+        </div>
     )
 };
 

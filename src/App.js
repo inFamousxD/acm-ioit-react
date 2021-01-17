@@ -10,6 +10,7 @@ import Team from './components/Team/Team';
 import Membership from './components/Membership/Membership';
 import Events from './components/Events/Events';
 import Contact from './components/Contact/Contact';
+import About from './components/About/About';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/acm-ioit-react/Membership" exact component={Membership} />
           <Route path="/acm-ioit-react/Team" exact component={Team} />
           <Route path="/acm-ioit-react/Contact" exact component={Contact} />
+          <Route path="/acm-ioit-react/About" exact component={About} />
         </Switch>
       <Footer />
       </Router>
