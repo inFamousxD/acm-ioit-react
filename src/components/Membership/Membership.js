@@ -1,8 +1,11 @@
 import React from 'react';
+import './Membership.css'
 
 const Membership = () => {
     return(
-        <h2>Membership works!</h2>
+        <div className="membership-body">
+            Membership 
+        </div>
     )
 };
 
