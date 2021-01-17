@@ -17,13 +17,13 @@ function App() {
     <div>
       <Router>
         <Navbar />
-        <Route path="/" exact component={Dashboard} />
+        <Route path="/acm-ioit-react/" exact component={Dashboard} />
         <Switch>
-          <Route path="/Home" exact component={Dashboard} />
-          <Route path="/Events" exact component={Events} />
-          <Route path="/Membership" exact component={Membership} />
-          <Route path="/Team" exact component={Team} />
-          <Route path="/Contact" exact component={Contact} />
+          <Route path="/acm-ioit-react/Home" exact component={Dashboard} />
+          <Route path="/acm-ioit-react/Events" exact component={Events} />
+          <Route path="/acm-ioit-react/Membership" exact component={Membership} />
+          <Route path="/acm-ioit-react/Team" exact component={Team} />
+          <Route path="/acm-ioit-react/Contact" exact component={Contact} />
         </Switch>
       <Footer />
       </Router>
