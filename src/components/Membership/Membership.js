@@ -1,7 +1,47 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './Membership.css'
 
 const Membership = () => {
+
+    const [data, setData] = useState({
+        fullname: '',
+        email: '',
+        phone: '',
+        msg: '',
+      });
+    
+      const InputEvent = (event) => {
+        const { name, value } = event.target;
+    
+        setData((preVal) => {
+          return {
+            ...preVal,
+            [name]: value,
+          };
+      });
+    };
+    
+    const formSubmit = (e) => {
+      e.preventDefault();
+    }
+
+    const inputStyle = {
+        backgroundColor: '#000',
+        border: '0px',
+        borderBottom: '1px solid blue',
+        borderRadius: '0%',
+        color: '#00aaff',
+        fontSize: '1.8vh',
+        fontWeight: 'bold',
+        boxShadow: '0px 0px'
+      }
+      
+      const labelStyle = {
+        fontWeight: 'bold',
+        fontSize: '1.8vh',
+      }
+    
+
     return(
         <div className="membership-body">
             Membership
@@ -33,7 +73,31 @@ const Membership = () => {
             <h5 className="membership-description">Anuj Chordia
             <br></br>
             Mobile No: +91 9595526856</h5>
-            </div> 
+            </div>
+            <div className="form-style">
+                <h2 className="text-center">Membership Form</h2><br />
+                <div className = ' col-md-4 col-10 mx-auto'>
+                   <div className = 'mb-3'>
+                    <form onSubmit = {formSubmit}>
+                     <div className = 'mb-3'>
+                      <label style={labelStyle} htmlFor = 'exampleFormControlInput1' className = 'form-label'>Full Name</label>
+                      <input style={inputStyle} type = 'text' className = 'form-control' id = 'exampleFormControlInput1' name = 'fullname' value = {data.fullname} onChange = {InputEvent} />
+                     </div>
+                     <div className = 'mb-3'>
+                      <label style={labelStyle} htmlFor = 'exampleFormControlInput1' className = 'form-label'>Email address</label>
+                      <input style={inputStyle} type = 'email' className = 'form-control' id = 'exampleFormControlInput1' name = 'email' value = {data.email} onChange = {InputEvent} />
+                    </div>
+                    <div className = 'mb-3'>
+                    <label style={labelStyle} htmlFor = 'exampleFormControlInput1' className = 'form-label'>Mobile Number</label>
+                    <input style={inputStyle} type = 'number' className = 'form-control'  id = 'exampleFormControlInput1' name = 'phone' value = {data.phone} onChange = {InputEvent} />
+                  </div>
+                 <div className = 'col-12 text-center'>
+                   <button className = 'btn btn-outline-primary font-weight-bold' type = 'submit'>SUBMIT</button>
+                 </div>
+                </form>
+               </div>
+              </div>
+           </div> 
         </div>
     )
 };
