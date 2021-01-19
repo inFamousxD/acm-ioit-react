@@ -72,4 +72,18 @@ section{
     .icons{
         display: block;
     }
+
+    section {
+      margin-top: 5vh;
+    }
   }
+
+
+.digital-library-head {
+  background-color: #00aaff;
+  font-size: 3.8vh;
+  text-align: center;
+  padding-top: 2vh;
+  margin-bottom: -5vh;
+  font-weight: bold;
+}

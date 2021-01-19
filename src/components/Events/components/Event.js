@@ -11,7 +11,7 @@ function Event(props) {
                     <p className="event-info">{props.descLong}</p>
                 </div>
                 <div className="imgBox">
-                    <img src={props.link}></img>
+                    <img src={props.link} alt="loading"></img>
                     <imghover className="txt">
                         <h2>{props.title}</h2>
                         <p>{props.descShort}</p>
