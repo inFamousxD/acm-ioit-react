@@ -7,13 +7,15 @@ import EventDetail from './EventDetail'
 
 function createEvent(details) {
   return (
-    <Event
-      id={details.id}
-      title={details.title}
-      descLong={details.descLong}
-      descShort={details.descShort}
-      link={details.link}
-    />
+    <>
+      <Event
+        id={details.id}
+        title={details.title}
+        descLong={details.descLong}
+        descShort={details.descShort}
+        link={details.link}
+      />
+    </>
   );
 }
 
