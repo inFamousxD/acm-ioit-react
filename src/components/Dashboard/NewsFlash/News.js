@@ -3,7 +3,7 @@ import Upcoming from '../../Events/Upcoming';
 import Carousel from './components/Carousel';
 import { Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-
+import linker from '../../GlobalVars';
 import './News.css';
 
 const News = () => {
@@ -18,7 +18,7 @@ const News = () => {
         <Col sm={12} lg={9} xs={12} xl={9}>
         <div className="upcoming-title">{Upcoming[0].title}</div> <br />
         <div className="upcoming-body">{Upcoming[0].descShort}</div>
-        <Link to='/acm-ioit-react/Events' className="upcoming-redirect" >Read More / Register</Link>
+        <Link to={`${linker}Events`} className="upcoming-redirect" >Read More / Register</Link>
         </Col>
       </Row>
       <div className="news-header">. . / Events / Past</div>
