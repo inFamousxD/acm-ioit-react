@@ -21,6 +21,7 @@ function App() {
       <Router>
         <Navbar />
         <ScrollToTop>
+          {/* For unofficial (github) deployment, uncomment below */}
         <Route path="/acm-ioit-react/" exact component={Dashboard} />
         <Switch>
           <Route path="/acm-ioit-react/Home" exact component={Dashboard} />
@@ -30,6 +31,18 @@ function App() {
           <Route path="/acm-ioit-react/Contact" exact component={Contact} />
           <Route path="/acm-ioit-react/About" exact component={About} />
         </Switch>
+        {/* Till here */}
+        {/* For official deployment, uncomment below */}
+        {/* <Route path="/" exact component={Dashboard} />
+        <Switch>
+          <Route path="/Home" exact component={Dashboard} />
+          <Route path="/Events" exact component={Events} />
+          <Route path="/Membership" exact component={Membership} />
+          <Route path="/Team" exact component={Team} />
+          <Route path="/Contact" exact component={Contact} />
+          <Route path="/About" exact component={About} />
+        </Switch> */}
+        {/* Till here */}
         </ScrollToTop>
       <Footer />
       </Router>

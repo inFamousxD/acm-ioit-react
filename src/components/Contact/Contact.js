@@ -55,7 +55,7 @@ const Contact = () => {
               <div className='my-5 contacts'>
                 <Row>
                   <Col><p> <b>AISSMS IOIT OFFICE</b><br/><p className='text-light'><i>Mob. no.-1234567890</i></p></p></Col>
-                  <Col><p> <b>Faculty Sponceror</b><br /> (Dr. Meenakshi Thalor)<br/><p className='text-light'><i>Mob. no.- 9923602929</i></p></p></Col>
+                  <Col><p> <b>Faculty Sponsor</b><br /> (Dr. Meenakshi Thalor)<br/><p className='text-light'><i>Mob. no.- 9923602929</i></p></p></Col>
                   <Col><p> <b>IOIT ACM Chair</b><br /> (Ms. Prachi Pingle)<br/><p className='text-light'><i>Mob. no.-8999305764</i></p></p></Col>
                </Row>
              </div>

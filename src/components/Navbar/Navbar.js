@@ -47,6 +47,8 @@ const Navbar = (props) => {
             {MenuItems.map(({ id, title, cName }) => (
                 <li key={id} className="nav_item">
                 <NavLink to={`/acm-ioit-react/${title}`} className={cName}>{title}</NavLink>
+                {/* For official deployment, uncomment below */}
+                {/* <NavLink to={`/${title}`} className={cName}>{title}</NavLink> */}
                 </li>
             ))}
             </ul>
