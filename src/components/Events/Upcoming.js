@@ -9,4 +9,6 @@ const upcoming = [
         timing: "11:00 AM",
         registerLink: "https://forms.gle/gzquvsHVN4RfiQX69"
     }
-]
+];
+
+export default upcoming;

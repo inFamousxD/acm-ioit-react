@@ -13,7 +13,7 @@
 .news-body{
   padding-top: 5%;
   margin-block: 0%;
-  min-height: 70vh;
+  min-height: 90vh;
   background: #111;
 }
 
@@ -22,4 +22,29 @@
   font-size: 3.2vh;
   color: #00aaff;
   text-align: center;
+}
+
+.upcoming-img {
+  width: 28vh;
+  height: 28vh;
+}
+
+.upcoming {
+  padding: 10vh 10vw;
+}
+
+.upcoming-title {
+  color: #00aaff;
+  font-size: 3vh;
+  margin-top: 5vh;
+}
+
+.upcoming-body {
+  color: #fff;
+  font-size: 2.2vh;
+}
+
+.upcoming-redirect {
+  color: #09cc00;
+  font-size: 2.8vh;
 }

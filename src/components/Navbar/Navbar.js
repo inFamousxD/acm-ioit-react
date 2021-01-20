@@ -5,6 +5,7 @@ import MenuItems from "./MenuItems";
 import "./Navbar.css";
 // import acmLogo from '../../../assets/acm.png'
 import {anime} from 'react-anime';
+import linker from '../GlobalVars';
 
 const Navbar = (props) => {
 
@@ -46,7 +47,7 @@ const Navbar = (props) => {
             <ul className={click ? "nav_list active" : "nav_list"}>
             {MenuItems.map(({ id, title, cName }) => (
                 <li key={id} className="nav_item">
-                <NavLink to={`/acm-ioit-react/${title}`} className={cName}>{title}</NavLink>
+                <NavLink to={`${linker}${title}`} className={cName}>{title}</NavLink>
                 {/* For official deployment, uncomment below */}
                 {/* <NavLink to={`/${title}`} className={cName}>{title}</NavLink> */}
                 </li>
