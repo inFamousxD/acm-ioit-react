@@ -6,7 +6,7 @@ const details = [
         descShort : "A 2-Hour Webinar by Dr.R Ramanujam on the topic-Game Theory",
         descLong : "What does a cake have in common with bandwidth? Well, everyone wants as large a piece of it as one can get away with, though we all know we must share. When several people have selfish, potentially conflicting, goals but also must cooperate to achieve something, game theory is the natural realm. Instead of people, consider geographically distributed processes sharing resources across the globe, and you see the connection to computing. In the modern era of computing agents acting autonomously and interacting with each other, strategic reasoning and algorithms combine in new ways, posing new challenges and new opportunities. The talk is an invitation to this fascinating emerging area of research.",
         date:"9th June 2020",
-        timing: "",
+        timing: "4:00-5:30 PM",
         registerLink: ""
     },
     {
