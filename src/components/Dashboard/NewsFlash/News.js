@@ -16,7 +16,7 @@ const News = () => {
         <img src={Upcoming[0].link} alt="" className="upcoming-img"></img>
         </Col>
         <Col sm={12} lg={9} xs={12} xl={9}>
-        <div className="upcoming-title">{Upcoming[0].title}</div> <br />
+        <div className="upcoming-title">{Upcoming[0].title} an ESP-Talk by Mr. R Venkateshwar</div> <br />
         <div className="upcoming-body">{Upcoming[0].descShort}</div>
         <Link to={`${linker}Events`} className="upcoming-redirect" >Read More / Register</Link>
         </Col>
