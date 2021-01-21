@@ -54,7 +54,7 @@ const Navbar = (props) => {
             ))}
             </ul>
 
-            <div className="hamburger" onClick={clickHandler}>
+            <div className="hamburger_icon" onClick={clickHandler}>
             {click ? <FaTimes /> : <FaBars />}
             </div>
         </div>
