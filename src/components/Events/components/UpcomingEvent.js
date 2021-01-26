@@ -11,7 +11,7 @@ function UpcomingEvent(props) {
             <div className="event-body2">
                 <div className="event">
                     <p className='title'>{props.title}</p>
-                    <p className='title' style={{ color: '#09bb00' }}><br />by Mario Rozario</p>
+                    <p className='title' style={{ color: '#09bb00' }}>In association with Enterprise Building Training Solutions<br />by Mario Rozario</p>
                     <p className='title'>{props.date}</p>
                     <p className='title'>{props.timing}</p>
                     <p className="event-info">{props.descLong}</p>
