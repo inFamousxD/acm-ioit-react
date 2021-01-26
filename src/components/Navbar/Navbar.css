@@ -108,14 +108,14 @@ ul,li {
 }
 
 @media only screen and (max-width: 768px) {
-    .hamburger {
+    .hamburger_icon {
         display: flex;
         align-items: center;
         justify-content: center;
         color: white;
-        font-size: 2.5rem;
+        font-size: 1.8rem;
         cursor: pointer;
-        padding-left: 420px;
+        /* padding-left: 420px; */
     }
 
     .logo {
@@ -127,7 +127,8 @@ ul,li {
 
     .nav_list {
         position: fixed;
-        top: 12%;
+        /* top: 12%; */
+        top: 7%;
         left: -100%;
         flex-direction: column;
         align-items: center;
