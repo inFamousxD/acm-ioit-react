@@ -1,13 +1,13 @@
 const upcoming = [
     {
         id: "1",
-        title: "Technology Trends – A Perspective Synopsis",
-        link: "https://i.ibb.co/CQZ3VdH/Techno-Trends-2.jpg",
-        descLong: "This talk provides a broad perspective about the recent technology advances and its impact on Software development.Some coverage on emerging technology areas and its relevance to students will be addressed.",
-        descShort: "A webinar by Mr. R Venkateshwar on the Prespective Synopsis of Technology Trends",
-        date: "25th January 2021",
-        timing: "11:00 AM",
-        registerLink: "https://forms.gle/gzquvsHVN4RfiQX69"
+        title: "Big Data Engineering",
+        link: "https://i.ibb.co/kmLbpWt/Big-Data-Engineering.png",
+        descLong: "",
+        descShort: "A webinar by Mr. Mario Rozario on Big Data Engineering",
+        date: "28th January 2021",
+        timing: "11:00-12:00 PM",
+        registerLink: "https://forms.gle/kirTFbwU8Npn4DDn8"
     }
 ];
 
