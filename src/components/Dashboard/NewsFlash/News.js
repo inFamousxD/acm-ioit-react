@@ -13,10 +13,10 @@ const News = () => {
       <div className="news-header">. . / Events / Upcoming</div>
       <Row className="upcoming">
         <Col sm={12} lg={3} xs={12} xl={3}>
-        <img src={Upcoming[0].link} alt="" className="upcoming-img"></img>
+        <img src={Upcoming[0].link} alt="" className="upcoming-img" style={{objectFit: 'cover'}}></img>
         </Col>
         <Col sm={12} lg={9} xs={12} xl={9}>
-        <div className="upcoming-title">{Upcoming[0].title} <br />an ESP-Talk by Mr. R Venkateshwar</div> <br />
+        <div className="upcoming-title">{Upcoming[0].title} <br />a webinar by Mario Rozario</div> <br />
         <div className="upcoming-body">{Upcoming[0].descShort}</div>
         <Link to={`${linker}Events`} className="upcoming-redirect" >Read More / Register</Link>
         </Col>
