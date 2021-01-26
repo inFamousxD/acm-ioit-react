@@ -1,7 +1,7 @@
 const upcoming = [
     {
         id: "1",
-        title: "Big Data Engineering",
+        title: "A webinar on Big Data Engineering",
         link: "https://i.ibb.co/kmLbpWt/Big-Data-Engineering.png",
         descLong: "",
         descShort: "A webinar by Mr. Mario Rozario on Big Data Engineering",
